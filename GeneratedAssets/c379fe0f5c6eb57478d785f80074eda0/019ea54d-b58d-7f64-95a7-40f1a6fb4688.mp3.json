@@ -1,0 +1,15 @@
+{
+    "asset": "c379fe0f5c6eb57478d785f80074eda0",
+    "fileName": "019ea54d-b58d-7f64-95a7-40f1a6fb4688.mp3",
+    "prompt": "Dynamic combat music, dubstep and rave mix, no singing, hotline miami",
+    "negativePrompt": "",
+    "model": "google-lyria-3-pro",
+    "modelName": "Google Lyria 3 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

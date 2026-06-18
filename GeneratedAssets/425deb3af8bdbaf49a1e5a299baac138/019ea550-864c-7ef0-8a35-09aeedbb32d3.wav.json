@@ -1,0 +1,15 @@
+{
+    "asset": "425deb3af8bdbaf49a1e5a299baac138",
+    "fileName": "019ea550-864c-7ef0-8a35-09aeedbb32d3.wav",
+    "prompt": "Door gettin slamed open",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 1.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

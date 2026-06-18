@@ -1,0 +1,15 @@
+{
+  "asset": "c11c3771be9f58d4eb2a21c3f5c50d7a",
+  "fileName": "019ea51f-56fb-7f30-b4c8-705bdb48dc46.wav",
+  "prompt": "A bat being swung",
+  "negativePrompt": "",
+  "model": "elevenlabs-sound-effects-v2",
+  "modelName": "ElevenLabs Sound Effects V2",
+  "customSeed": -1,
+  "w3CTraceId": "",
+  "feedback": -1,
+  "duration": 1.0,
+  "autoTrim": false,
+  "hasReference": false,
+  "voice": "Adam"
+}

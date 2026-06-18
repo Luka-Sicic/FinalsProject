@@ -1,0 +1,15 @@
+{
+    "asset": "f3318797bdbb32341b6101ec297e1c3a",
+    "fileName": "019ea52f-6796-757e-8d10-14e7be31e04e.wav",
+    "prompt": "Sound of a pistol being fired",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 0.5,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

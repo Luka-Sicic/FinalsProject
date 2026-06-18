@@ -1,0 +1,5967 @@
+fileFormatVersion: 2
+guid: ff3e2e8b13b66244db114e7bc2294374
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2459997212589772163
+    second: undefined - Imgur_0
+  - first:
+      213: -1631164333299321304
+    second: undefined - Imgur_1
+  - first:
+      213: -7153315302098180922
+    second: undefined - Imgur_2
+  - first:
+      213: 1230708905645671477
+    second: undefined - Imgur_3
+  - first:
+      213: -6767605050790213331
+    second: undefined - Imgur_4
+  - first:
+      213: -5938514016157378139
+    second: undefined - Imgur_5
+  - first:
+      213: 5460573542627417499
+    second: undefined - Imgur_6
+  - first:
+      213: -4328155585780722695
+    second: undefined - Imgur_7
+  - first:
+      213: -2583609528573096823
+    second: undefined - Imgur_8
+  - first:
+      213: -6034590068324861663
+    second: undefined - Imgur_9
+  - first:
+      213: 4262122074016667468
+    second: undefined - Imgur_10
+  - first:
+      213: 57377120749025715
+    second: undefined - Imgur_11
+  - first:
+      213: 7465504349221928740
+    second: undefined - Imgur_12
+  - first:
+      213: 349743148773028476
+    second: undefined - Imgur_13
+  - first:
+      213: 5078214970769225182
+    second: undefined - Imgur_14
+  - first:
+      213: 1295707711443247836
+    second: undefined - Imgur_15
+  - first:
+      213: 7366239837916559985
+    second: undefined - Imgur_16
+  - first:
+      213: 8549268159606078211
+    second: undefined - Imgur_17
+  - first:
+      213: -6022230937435352282
+    second: undefined - Imgur_18
+  - first:
+      213: 2360592035146525189
+    second: undefined - Imgur_19
+  - first:
+      213: 2490352664258425502
+    second: undefined - Imgur_20
+  - first:
+      213: -6937808021507684650
+    second: undefined - Imgur_21
+  - first:
+      213: -34752452420368983
+    second: undefined - Imgur_22
+  - first:
+      213: 2925059850264769345
+    second: undefined - Imgur_23
+  - first:
+      213: 1977924587129221747
+    second: undefined - Imgur_24
+  - first:
+      213: 2852872275518557146
+    second: undefined - Imgur_25
+  - first:
+      213: 1422560813617285833
+    second: undefined - Imgur_26
+  - first:
+      213: -1210431683375190019
+    second: undefined - Imgur_27
+  - first:
+      213: 2265709710889903220
+    second: undefined - Imgur_28
+  - first:
+      213: -4625527431212804485
+    second: undefined - Imgur_29
+  - first:
+      213: 8458669807917954137
+    second: undefined - Imgur_30
+  - first:
+      213: 618163836009282408
+    second: undefined - Imgur_31
+  - first:
+      213: -2970498000742894274
+    second: undefined - Imgur_32
+  - first:
+      213: -955216564681109317
+    second: undefined - Imgur_33
+  - first:
+      213: -6387177736548396956
+    second: undefined - Imgur_34
+  - first:
+      213: -4345898045962704908
+    second: undefined - Imgur_35
+  - first:
+      213: -7294950647495966334
+    second: undefined - Imgur_36
+  - first:
+      213: 5174913998902577058
+    second: undefined - Imgur_37
+  - first:
+      213: 8420389405724030963
+    second: undefined - Imgur_38
+  - first:
+      213: 420676816806296895
+    second: undefined - Imgur_39
+  - first:
+      213: -7897449427700713147
+    second: undefined - Imgur_40
+  - first:
+      213: -2998954515884356652
+    second: undefined - Imgur_41
+  - first:
+      213: 3046054046983283083
+    second: undefined - Imgur_42
+  - first:
+      213: -3795990363237017684
+    second: undefined - Imgur_43
+  - first:
+      213: -135612618592797261
+    second: undefined - Imgur_44
+  - first:
+      213: -5518061067332819870
+    second: undefined - Imgur_45
+  - first:
+      213: -2536690834170360777
+    second: undefined - Imgur_46
+  - first:
+      213: 7609741361206440501
+    second: undefined - Imgur_47
+  - first:
+      213: -3812199676314733022
+    second: undefined - Imgur_48
+  - first:
+      213: -1162482576555005631
+    second: undefined - Imgur_49
+  - first:
+      213: -5170918442893368305
+    second: undefined - Imgur_50
+  - first:
+      213: -4446189761150530003
+    second: undefined - Imgur_51
+  - first:
+      213: 1657903745302407482
+    second: undefined - Imgur_52
+  - first:
+      213: 521451807772615861
+    second: undefined - Imgur_53
+  - first:
+      213: 5880410835521542343
+    second: undefined - Imgur_54
+  - first:
+      213: -1055476313270453491
+    second: undefined - Imgur_55
+  - first:
+      213: 1043221718236832333
+    second: undefined - Imgur_56
+  - first:
+      213: 8792626382343327992
+    second: undefined - Imgur_57
+  - first:
+      213: -4575738788438785392
+    second: undefined - Imgur_58
+  - first:
+      213: 430422763452516115
+    second: undefined - Imgur_59
+  - first:
+      213: -6864370540506198573
+    second: undefined - Imgur_60
+  - first:
+      213: -6414047762548695743
+    second: undefined - Imgur_61
+  - first:
+      213: 6677062578834067719
+    second: undefined - Imgur_62
+  - first:
+      213: 4045954516122715572
+    second: undefined - Imgur_63
+  - first:
+      213: 5463335322550277173
+    second: undefined - Imgur_64
+  - first:
+      213: 4728746631530955634
+    second: undefined - Imgur_65
+  - first:
+      213: -2648724980509244925
+    second: undefined - Imgur_66
+  - first:
+      213: -8430322273422378144
+    second: undefined - Imgur_67
+  - first:
+      213: 4416927791818543700
+    second: undefined - Imgur_68
+  - first:
+      213: 7162973000148333680
+    second: undefined - Imgur_69
+  - first:
+      213: 1686377445752447331
+    second: undefined - Imgur_70
+  - first:
+      213: -7039926730275321119
+    second: undefined - Imgur_71
+  - first:
+      213: 3629411710927342659
+    second: undefined - Imgur_72
+  - first:
+      213: -4500430465397323748
+    second: undefined - Imgur_73
+  - first:
+      213: 7784255046146861255
+    second: undefined - Imgur_74
+  - first:
+      213: -8584822415188598001
+    second: undefined - Imgur_75
+  - first:
+      213: 4666315658076827960
+    second: undefined - Imgur_76
+  - first:
+      213: -3117288680813005528
+    second: undefined - Imgur_77
+  - first:
+      213: 5960446180940360466
+    second: undefined - Imgur_78
+  - first:
+      213: 4415039968162811629
+    second: undefined - Imgur_79
+  - first:
+      213: 2182491375159713734
+    second: undefined - Imgur_80
+  - first:
+      213: 3279804706949364417
+    second: undefined - Imgur_81
+  - first:
+      213: 5251848920957913263
+    second: undefined - Imgur_82
+  - first:
+      213: -7937000089699202903
+    second: undefined - Imgur_83
+  - first:
+      213: 1539868513423273929
+    second: undefined - Imgur_84
+  - first:
+      213: -2732968709637021442
+    second: undefined - Imgur_85
+  - first:
+      213: -613373436095419878
+    second: undefined - Imgur_86
+  - first:
+      213: -5205441945031897475
+    second: undefined - Imgur_87
+  - first:
+      213: -1424388020434920363
+    second: undefined - Imgur_88
+  - first:
+      213: -7771061610658917579
+    second: undefined - Imgur_89
+  - first:
+      213: 5456226249951753212
+    second: undefined - Imgur_90
+  - first:
+      213: -7462915229497467336
+    second: undefined - Imgur_91
+  - first:
+      213: 3082116005705760335
+    second: undefined - Imgur_92
+  - first:
+      213: -4845504345137741021
+    second: undefined - Imgur_93
+  - first:
+      213: -143543577422577466
+    second: undefined - Imgur_94
+  - first:
+      213: -1006702349707145713
+    second: undefined - Imgur_95
+  - first:
+      213: 7109559284652071560
+    second: undefined - Imgur_96
+  - first:
+      213: -8421701356035960957
+    second: undefined - Imgur_97
+  - first:
+      213: -6868529688493190874
+    second: undefined - Imgur_98
+  - first:
+      213: -8036952042142245596
+    second: undefined - Imgur_99
+  - first:
+      213: -6899345117672483474
+    second: undefined - Imgur_100
+  - first:
+      213: -1720177059939292597
+    second: undefined - Imgur_101
+  - first:
+      213: 4434601630568300219
+    second: undefined - Imgur_102
+  - first:
+      213: 1402669467075011821
+    second: undefined - Imgur_103
+  - first:
+      213: -7969539834132447196
+    second: undefined - Imgur_104
+  - first:
+      213: -5327410534408390774
+    second: undefined - Imgur_105
+  - first:
+      213: -232476735029237251
+    second: undefined - Imgur_106
+  - first:
+      213: 8101206653775631004
+    second: undefined - Imgur_107
+  - first:
+      213: -3912771391453129903
+    second: undefined - Imgur_108
+  - first:
+      213: 1999224075148378408
+    second: undefined - Imgur_109
+  - first:
+      213: -4573273434010958578
+    second: undefined - Imgur_110
+  - first:
+      213: 5593576253541959549
+    second: undefined - Imgur_111
+  - first:
+      213: -7343220375966633905
+    second: undefined - Imgur_112
+  - first:
+      213: 1432407772423935029
+    second: undefined - Imgur_113
+  - first:
+      213: 1138979071076344186
+    second: undefined - Imgur_114
+  - first:
+      213: -4585195666587042309
+    second: undefined - Imgur_115
+  - first:
+      213: 217680774781727100
+    second: undefined - Imgur_116
+  - first:
+      213: 2513679196640789089
+    second: undefined - Imgur_117
+  - first:
+      213: -3117722316257949799
+    second: undefined - Imgur_118
+  - first:
+      213: -6575997007642247272
+    second: undefined - Imgur_119
+  - first:
+      213: -35185471596889339
+    second: undefined - Imgur_120
+  - first:
+      213: 1350712175146347925
+    second: undefined - Imgur_121
+  - first:
+      213: -5080009142364855629
+    second: undefined - Imgur_122
+  - first:
+      213: 2045132270629952518
+    second: undefined - Imgur_123
+  - first:
+      213: -6360291732566025254
+    second: undefined - Imgur_124
+  - first:
+      213: 6019427896443077530
+    second: undefined - Imgur_125
+  - first:
+      213: 4412459953604284201
+    second: undefined - Imgur_126
+  - first:
+      213: 7333921913246516820
+    second: undefined - Imgur_127
+  - first:
+      213: -2260096744991226599
+    second: undefined - Imgur_128
+  - first:
+      213: 6989732712035766478
+    second: undefined - Imgur_129
+  - first:
+      213: 3397018387336802465
+    second: undefined - Imgur_130
+  - first:
+      213: 8798823231779027099
+    second: undefined - Imgur_131
+  - first:
+      213: -8481278623091919183
+    second: undefined - Imgur_132
+  - first:
+      213: 8095436291840070387
+    second: undefined - Imgur_133
+  - first:
+      213: -5996190564490334187
+    second: undefined - Imgur_134
+  - first:
+      213: -1724092265282626683
+    second: undefined - Imgur_135
+  - first:
+      213: 1385026635807993530
+    second: undefined - Imgur_136
+  - first:
+      213: 1902841889880899737
+    second: undefined - Imgur_137
+  - first:
+      213: 7913922057239779910
+    second: undefined - Imgur_138
+  - first:
+      213: -3430137217023855850
+    second: undefined - Imgur_139
+  - first:
+      213: -7377979470520109783
+    second: undefined - Imgur_140
+  - first:
+      213: 8326312355418962359
+    second: undefined - Imgur_141
+  - first:
+      213: -2548095893029004805
+    second: undefined - Imgur_142
+  - first:
+      213: -2828943758941685099
+    second: undefined - Imgur_143
+  - first:
+      213: 4633070686820926064
+    second: undefined - Imgur_144
+  - first:
+      213: 1426974128606807567
+    second: undefined - Imgur_145
+  - first:
+      213: 9168076012290874114
+    second: undefined - Imgur_146
+  - first:
+      213: 7237274757182944421
+    second: undefined - Imgur_147
+  - first:
+      213: -2288132014072322235
+    second: undefined - Imgur_148
+  - first:
+      213: 9187884964622541410
+    second: undefined - Imgur_149
+  - first:
+      213: -3944100198537656021
+    second: undefined - Imgur_150
+  - first:
+      213: 4445575184673421560
+    second: undefined - Imgur_151
+  - first:
+      213: -6547994976134787923
+    second: undefined - Imgur_152
+  - first:
+      213: -5698922641886153334
+    second: undefined - Imgur_153
+  - first:
+      213: -4285249956397249778
+    second: undefined - Imgur_154
+  - first:
+      213: 5453282634256999953
+    second: undefined - Imgur_155
+  - first:
+      213: -8308030678068549766
+    second: undefined - Imgur_156
+  - first:
+      213: -848313830803736526
+    second: undefined - Imgur_157
+  - first:
+      213: -8874329610471224767
+    second: undefined - Imgur_158
+  - first:
+      213: 3710082492252304199
+    second: undefined - Imgur_159
+  - first:
+      213: 3429160605794845852
+    second: undefined - Imgur_160
+  - first:
+      213: 3105926471497267730
+    second: undefined - Imgur_161
+  - first:
+      213: -4989164609358001238
+    second: undefined - Imgur_162
+  - first:
+      213: -4023526551568837900
+    second: undefined - Imgur_163
+  - first:
+      213: 4523043806775339925
+    second: undefined - Imgur_164
+  - first:
+      213: -3511353146746012448
+    second: undefined - Imgur_165
+  - first:
+      213: -6138805798908599656
+    second: undefined - Imgur_166
+  - first:
+      213: -6675778689026203530
+    second: undefined - Imgur_167
+  - first:
+      213: 1402785270381722620
+    second: undefined - Imgur_168
+  - first:
+      213: 6706439496641504725
+    second: undefined - Imgur_169
+  - first:
+      213: 1649141380111445669
+    second: undefined - Imgur_170
+  - first:
+      213: 5499146635145051518
+    second: undefined - Imgur_171
+  - first:
+      213: -765281446378637708
+    second: undefined - Imgur_172
+  - first:
+      213: -8857237891266594152
+    second: undefined - Imgur_173
+  - first:
+      213: 1814877393291342512
+    second: undefined - Imgur_174
+  - first:
+      213: -9200803943306349401
+    second: undefined - Imgur_175
+  - first:
+      213: -8570359378450117722
+    second: undefined - Imgur_176
+  - first:
+      213: -9098903229552878555
+    second: undefined - Imgur_177
+  - first:
+      213: -4609415078769963002
+    second: undefined - Imgur_178
+  - first:
+      213: 764572420531524488
+    second: undefined - Imgur_179
+  - first:
+      213: 1338373394535454839
+    second: undefined - Imgur_180
+  - first:
+      213: 8810217147933631754
+    second: undefined - Imgur_181
+  - first:
+      213: 187154459243764158
+    second: undefined - Imgur_182
+  - first:
+      213: -715978665609502501
+    second: undefined - Imgur_183
+  - first:
+      213: 4155290792013666487
+    second: undefined - Imgur_184
+  - first:
+      213: 6710221716822865725
+    second: undefined - Imgur_185
+  - first:
+      213: 1386155693736671835
+    second: undefined - Imgur_186
+  - first:
+      213: 923710107715371924
+    second: undefined - Imgur_187
+  - first:
+      213: 6788131960485265069
+    second: undefined - Imgur_188
+  - first:
+      213: 7368483167817224163
+    second: undefined - Imgur_189
+  - first:
+      213: -5569220632040846301
+    second: undefined - Imgur_190
+  - first:
+      213: 1900921850844915688
+    second: undefined - Imgur_191
+  - first:
+      213: -545916914280628129
+    second: undefined - Imgur_192
+  - first:
+      213: -2741468340624541930
+    second: undefined - Imgur_193
+  - first:
+      213: 740625679995644414
+    second: undefined - Imgur_194
+  - first:
+      213: -474048179252218342
+    second: undefined - Imgur_195
+  - first:
+      213: 7006752494741917632
+    second: undefined - Imgur_196
+  - first:
+      213: 7647761347016489690
+    second: undefined - Imgur_197
+  - first:
+      213: 5745191370329757478
+    second: undefined - Imgur_198
+  - first:
+      213: -1482718995501392989
+    second: undefined - Imgur_199
+  - first:
+      213: 8240367611939564779
+    second: undefined - Imgur_200
+  - first:
+      213: -3258978761963845012
+    second: undefined - Imgur_201
+  - first:
+      213: 8637516315569242467
+    second: undefined - Imgur_202
+  - first:
+      213: 2322539493833327323
+    second: undefined - Imgur_203
+  - first:
+      213: -8383968905164623833
+    second: undefined - Imgur_204
+  - first:
+      213: -5328116282865341831
+    second: undefined - Imgur_205
+  - first:
+      213: 2591516619535742943
+    second: undefined - Imgur_206
+  - first:
+      213: 6772301671312356858
+    second: undefined - Imgur_207
+  - first:
+      213: -8669664101390774036
+    second: undefined - Imgur_208
+  - first:
+      213: 7159877062825019664
+    second: undefined - Imgur_209
+  - first:
+      213: 757654149774994786
+    second: undefined - Imgur_210
+  - first:
+      213: -5553920890708628815
+    second: undefined - Imgur_211
+  - first:
+      213: -8810992594158455767
+    second: undefined - Imgur_212
+  - first:
+      213: 7223588906853986372
+    second: undefined - Imgur_213
+  - first:
+      213: -5678671548188406335
+    second: undefined - Imgur_214
+  - first:
+      213: -3204966596335084248
+    second: undefined - Imgur_215
+  - first:
+      213: 6472531152625329428
+    second: undefined - Imgur_216
+  - first:
+      213: 5948618320309124064
+    second: undefined - Imgur_217
+  - first:
+      213: -8845933168755853974
+    second: undefined - Imgur_218
+  - first:
+      213: -329017590807280978
+    second: undefined - Imgur_219
+  - first:
+      213: 2529919264551188219
+    second: undefined - Imgur_220
+  - first:
+      213: -4305383764533165418
+    second: undefined - Imgur_221
+  - first:
+      213: -8022047685747382385
+    second: undefined - Imgur_222
+  - first:
+      213: 3642223826637544776
+    second: undefined - Imgur_223
+  - first:
+      213: -2371432662451412676
+    second: undefined - Imgur_224
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: undefined - Imgur_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 135
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72b22b91955cddd0800000000000000
+      internalID: -2459997212589772163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 487
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826386f5ea0fc59e0800000000000000
+      internalID: -1631164333299321304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 565
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c46214f1a15abc90800000000000000
+      internalID: -7153315302098180922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_3
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 569
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5348be6aa3b541110800000000000000
+      internalID: 1230708905645671477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_4
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 579
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2982870013a412a0800000000000000
+      internalID: -6767605050790213331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_5
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 579
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9d24547f8269da0800000000000000
+      internalID: -5938514016157378139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_6
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 569
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d1436a4bad7cb40800000000000000
+      internalID: 5460573542627417499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_7
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 546
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3dae02d6d4fe3c0800000000000000
+      internalID: -4328155585780722695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_8
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 551
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c061382dc252cd0800000000000000
+      internalID: -2583609528573096823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_9
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 544
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12975643e44d04ca0800000000000000
+      internalID: -6034590068324861663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_10
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 547
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c475d13d179162b30800000000000000
+      internalID: 4262122074016667468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 562
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9fa74ff28dbc000800000000000000
+      internalID: 57377120749025715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_12
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 565
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fb184d6acca9760800000000000000
+      internalID: 7465504349221928740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_13
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 554
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c723e317a898ad400800000000000000
+      internalID: 349743148773028476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_14
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 548
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed535c14c91797640800000000000000
+      internalID: 5078214970769225182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_15
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 562
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd22f417c474bf110800000000000000
+      internalID: 1295707711443247836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_16
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 547
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17af855ca142a3660800000000000000
+      internalID: 7366239837916559985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_17
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 561
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30bb0ee581a15a670800000000000000
+      internalID: 8549268159606078211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_18
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 547
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6235cca9edcbc6ca0800000000000000
+      internalID: -6022230937435352282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_19
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 547
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a6682f2f182c020800000000000000
+      internalID: 2360592035146525189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_20
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 561
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92329ebd828f8220800000000000000
+      internalID: 2490352664258425502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_21
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 547
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6cd2ecc54f7bf90800000000000000
+      internalID: -6937808021507684650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_22
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 547
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5096224d8848ff0800000000000000
+      internalID: -34752452420368983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_23
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 562
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143f9c9af66e79820800000000000000
+      internalID: 2925059850264769345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_24
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 554
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3723958beeff27b10800000000000000
+      internalID: 1977924587129221747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_25
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 565
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb08db2830779720800000000000000
+      internalID: 2852872275518557146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_26
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 547
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca8c0fd583fdb310800000000000000
+      internalID: 1422560813617285833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_27
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 562
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff2b8f0ccea33fe0800000000000000
+      internalID: -1210431683375190019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_28
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 530
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474eeb15afa617f10800000000000000
+      internalID: 2265709710889903220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_29
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 533
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b765cb3fe43decfb0800000000000000
+      internalID: -4625527431212804485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_30
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 531
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9547545df5b336570800000000000000
+      internalID: 8458669807917954137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_31
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 531
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b7352dbb8249800800000000000000
+      internalID: 618163836009282408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_32
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 533
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3536b38ecba6c6d0800000000000000
+      internalID: -2970498000742894274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_33
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 530
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb01d9a68936eb2f0800000000000000
+      internalID: -955216564681109317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_34
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 529
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460dfb770bf2c57a0800000000000000
+      internalID: -6387177736548396956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_35
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 533
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f72454b0c440b3c0800000000000000
+      internalID: -4345898045962704908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_36
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 529
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2814ff1590123ca90800000000000000
+      internalID: -7294950647495966334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_37
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 530
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7c8c73ddcf0d740800000000000000
+      internalID: 5174913998902577058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_38
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 531
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7b4a62d8b3bd470800000000000000
+      internalID: 8420389405724030963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_39
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 531
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d3bf6065b86d500800000000000000
+      internalID: 420676816806296895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_40
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 533
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5497946869f966290800000000000000
+      internalID: -7897449427700713147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_41
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 530
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbc827c1c29166d0800000000000000
+      internalID: -2998954515884356652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_42
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 498
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81641d5402c54a20800000000000000
+      internalID: 3046054046983283083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_43
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 517
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7937c60eee15bc0800000000000000
+      internalID: -3795990363237017684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_44
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 514
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd37b9ba053e1ef0800000000000000
+      internalID: -135612618592797261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_45
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 498
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264e6b8f1b8eb63b0800000000000000
+      internalID: -5518061067332819870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_46
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 519
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c4944502ddbccd0800000000000000
+      internalID: -2536690834170360777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_47
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 522
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532be4b237b3b9960800000000000000
+      internalID: 7609741361206440501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_48
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 522
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226b660a798581bc0800000000000000
+      internalID: -3812199676314733022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_49
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 519
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149abd671480edfe0800000000000000
+      internalID: -1162482576555005631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_50
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 498
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0423d8a2153d38b0800000000000000
+      internalID: -5170918442893368305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_51
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 514
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ec4aa18f5fb42c0800000000000000
+      internalID: -4446189761150530003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_52
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 517
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a392a822cae020710800000000000000
+      internalID: 1657903745302407482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_53
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 498
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4a5c908a19c3700800000000000000
+      internalID: 521451807772615861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_54
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 487
+        width: 102
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c89e98cf7a6b9150800000000000000
+      internalID: 5880410835521542343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_55
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 514
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bfcae92e13a51f0800000000000000
+      internalID: -1055476313270453491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_56
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 514
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42aa7120a44a7e00800000000000000
+      internalID: 1043221718236832333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_57
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 501
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f05d420c1fa50a70800000000000000
+      internalID: 8792626382343327992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_58
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 498
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0924122b0d5bf70c0800000000000000
+      internalID: -4575738788438785392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_59
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 497
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31744de093b29f500800000000000000
+      internalID: 430422763452516115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_60
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 498
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddc876cc5bdcb0a0800000000000000
+      internalID: -6864370540506198573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_61
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 498
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d55e40b89bcf6a0800000000000000
+      internalID: -6414047762548695743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_62
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 497
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7015572f901b9ac50800000000000000
+      internalID: 6677062578834067719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_63
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 498
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5c1ee223e162830800000000000000
+      internalID: 4045954516122715572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_64
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 501
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5341475a78aa1db40800000000000000
+      internalID: 5463335322550277173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_65
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 401
+        width: 31
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2734a35e102ef9140800000000000000
+      internalID: 4728746631530955634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_66
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 483
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3020b0de9a6dd3bd0800000000000000
+      internalID: -2648724980509244925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_67
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 490
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b789ede8a710b80800000000000000
+      internalID: -8430322273422378144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_68
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 489
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45215edbc641c4d30800000000000000
+      internalID: 4416927791818543700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_69
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 482
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0743e891efdf76360800000000000000
+      internalID: 7162973000148333680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_70
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 481
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3612e432a57376710800000000000000
+      internalID: 1686377445752447331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_71
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 481
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea892d10f72d4e90800000000000000
+      internalID: -7039926730275321119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_72
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 482
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c877db8b24e5230800000000000000
+      internalID: 3629411710927342659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_73
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 489
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1885a506524b81c0800000000000000
+      internalID: -4500430465397323748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_74
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 483
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c820a2c8ba370c60800000000000000
+      internalID: 7784255046146861255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_75
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 401
+        width: 31
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f036fda6f759cd880800000000000000
+      internalID: -8584822415188598001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_76
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 490
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83133892e5512c040800000000000000
+      internalID: 4666315658076827960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_77
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 483
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8257bcdf57a2db4d0800000000000000
+      internalID: -3117288680813005528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_78
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 483
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ba8c5c832c7b250800000000000000
+      internalID: 5960446180940360466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_79
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 391
+        width: 43
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee0f7b857f554d30800000000000000
+      internalID: 4415039968162811629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_80
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 423
+        width: 69
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf9fb5a754c94e10800000000000000
+      internalID: 2182491375159713734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_81
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 450
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cafe5af005348d20800000000000000
+      internalID: 3279804706949364417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_82
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 454
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa807b3a4c052e840800000000000000
+      internalID: 5251848920957913263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_83
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 466
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a84c3f687c1ad190800000000000000
+      internalID: -7937000089699202903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_84
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 466
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf276f1146be5510800000000000000
+      internalID: 1539868513423273929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_85
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 452
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0e3df307b821ad0800000000000000
+      internalID: -2732968709637021442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_86
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 450
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a2fd21c1cdc77f0800000000000000
+      internalID: -613373436095419878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_87
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 439
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e847f612e82c7b0800000000000000
+      internalID: -5205441945031897475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_88
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 449
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c97a364ae8b3ce0800000000000000
+      internalID: -1424388020434920363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_89
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 450
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533100153a4a72490800000000000000
+      internalID: -7771061610658917579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_90
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 452
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf33982bdd868bb40800000000000000
+      internalID: 5456226249951753212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_91
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 450
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e53f493266e6890800000000000000
+      internalID: -7462915229497467336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_92
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 454
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e33ac6d20e5ca20800000000000000
+      internalID: 3082116005705760335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_93
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 449
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323047e787f41ccb0800000000000000
+      internalID: -4845504345137741021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_94
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 419
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c040f970e7020ef0800000000000000
+      internalID: -143543577422577466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_95
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 434
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e8723fb897702f0800000000000000
+      internalID: -1006702349707145713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_96
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 435
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a5447508a3aa260800000000000000
+      internalID: 7109559284652071560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_97
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 437
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f0d0d9c3b102b80800000000000000
+      internalID: -8421701356035960957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_98
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 438
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621932ca3a41ea0a0800000000000000
+      internalID: -6868529688493190874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_99
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 435
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42dd24303b2077090800000000000000
+      internalID: -8036952042142245596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_100
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 434
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e655e467b2a9040a0800000000000000
+      internalID: -6899345117672483474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_101
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 419
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4aea8fe314b028e0800000000000000
+      internalID: -1720177059939292597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_102
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 429
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe346effaeda8d30800000000000000
+      internalID: 4434601630568300219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_103
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 417
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4ea4ad278477310800000000000000
+      internalID: 1402669467075011821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_104
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 423
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420c53bceb1866190800000000000000
+      internalID: -7969539834132447196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_105
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 407
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87f9e3485c3116b0800000000000000
+      internalID: -5327410534408390774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_106
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 420
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df92a0624a316ccf0800000000000000
+      internalID: -232476735029237251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_107
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 423
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92d35297844d6070800000000000000
+      internalID: 8101206653775631004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_108
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 417
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1531025762b03b9c0800000000000000
+      internalID: -3912771391453129903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_109
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 429
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821c0a934bbaebb10800000000000000
+      internalID: 1999224075148378408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_110
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 360
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05cb01ca087880c0800000000000000
+      internalID: -4573273434010958578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_111
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 362
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77cd6077ff50ad40800000000000000
+      internalID: 5593576253541959549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_112
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 364
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40391f59f3a71a90800000000000000
+      internalID: -7343220375966633905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_113
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53456d0a74fe0e310800000000000000
+      internalID: 1432407772423935029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_114
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 411
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a712c1a3e677ecf00800000000000000
+      internalID: 1138979071076344186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_115
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 400
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd3b6ba5dc1e50c0800000000000000
+      internalID: -4585195666587042309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_116
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 408
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71fb47e28b550300800000000000000
+      internalID: 217680774781727100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_117
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 406
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162401b49e162e220800000000000000
+      internalID: 2513679196640789089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_118
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 400
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997032f5210abb4d0800000000000000
+      internalID: -3117722316257949799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_119
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 408
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fb37b009d5db4a0800000000000000
+      internalID: -6575997007642247272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_120
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 411
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b7630000ff28ff0800000000000000
+      internalID: -35185471596889339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_121
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59da4612191beb210800000000000000
+      internalID: 1350712175146347925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_122
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 387
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b22b9d999e2089b0800000000000000
+      internalID: -5080009142364855629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_123
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 389
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c169de6f4c16c10800000000000000
+      internalID: 2045132270629952518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_124
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 386
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb5c841e54bbb7a0800000000000000
+      internalID: -6360291732566025254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_125
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 384
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93019e87cd498350800000000000000
+      internalID: 6019427896443077530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_126
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 389
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f483813f43c3d30800000000000000
+      internalID: 4412459953604284201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_127
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 387
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45603819f1357c560800000000000000
+      internalID: 7333921913246516820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_128
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 386
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91508c42cf582a0e0800000000000000
+      internalID: -2260096744991226599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_129
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 389
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0d1df4ed4800160800000000000000
+      internalID: 6989732712035766478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_130
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 384
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a03ea0a932a42f20800000000000000
+      internalID: 3397018387336802465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_131
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 386
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98b4a37c13bb1a70800000000000000
+      internalID: 8798823231779027099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_132
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 389
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6fd7d27027c4a80800000000000000
+      internalID: -8481278623091919183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_133
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 375
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2deec7a64c85070800000000000000
+      internalID: 8095436291840070387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_134
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 375
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5103106637049cca0800000000000000
+      internalID: -5996190564490334187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_135
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 359
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b94d7283bc218e0800000000000000
+      internalID: -1724092265282626683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_136
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 343
+        width: 13
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe2ac7136a983310800000000000000
+      internalID: 1385026635807993530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_137
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 372
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990851efd90486a10800000000000000
+      internalID: 1902841889880899737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_138
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 342
+        width: 13
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ad7e96e26e3dd60800000000000000
+      internalID: 7913922057239779910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_139
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 372
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6133270ff54b560d0800000000000000
+      internalID: -3430137217023855850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_140
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 372
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925368303c62c9990800000000000000
+      internalID: -7377979470520109783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_141
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 371
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b971b9f8f00d8370800000000000000
+      internalID: 8326312355418962359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_142
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 371
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9df52294853acd0800000000000000
+      internalID: -2548095893029004805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_143
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 375
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59af8beb3a29db8d0800000000000000
+      internalID: -2828943758941685099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_144
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 363
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0728c3b1e39fb4040800000000000000
+      internalID: 4633070686820926064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_145
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 362
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f060847d861adc310800000000000000
+      internalID: 1426974128606807567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_146
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 362
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b90620f8c8b3f70800000000000000
+      internalID: 9168076012290874114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_147
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 361
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a47ac30c07ff6460800000000000000
+      internalID: 7237274757182944421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_148
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 365
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54725066e0cee30e0800000000000000
+      internalID: -2288132014072322235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_149
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 364
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262aa7122bce18f70800000000000000
+      internalID: 9187884964622541410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_150
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 341
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b298d9324cdb349c0800000000000000
+      internalID: -3944100198537656021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_151
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 359
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f830c8a31bd1bd30800000000000000
+      internalID: 4445575184673421560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_152
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 358
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac81701349d025a0800000000000000
+      internalID: -6547994976134787923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_153
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 357
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85f1f72d0c59e0b0800000000000000
+      internalID: -5698922641886153334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_154
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 356
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b0f2f6edbb784c0800000000000000
+      internalID: -4285249956397249778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_155
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 359
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116e1b2c9a3fdab40800000000000000
+      internalID: 5453282634256999953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_156
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 327
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a772daabd12f3bc80800000000000000
+      internalID: -8308030678068549766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_157
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 316
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23874e0c01f2a34f0800000000000000
+      internalID: -848313830803736526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_158
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 357
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ac12ccc3c08d480800000000000000
+      internalID: -8874329610471224767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_159
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 316
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743381eae5cdc7330800000000000000
+      internalID: 3710082492252304199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_160
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 357
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c944a2a0763d69f20800000000000000
+      internalID: 3429160605794845852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_161
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 315
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ab3108ba77a1b20800000000000000
+      internalID: 3105926471497267730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_162
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 315
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab0445b83de2cab0800000000000000
+      internalID: -4989164609358001238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_163
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 351
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2136d3bef8928c0800000000000000
+      internalID: -4023526551568837900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_164
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 342
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bef5ec06415ce30800000000000000
+      internalID: 4523043806775339925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_165
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 342
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecf04fbaea254fc0800000000000000
+      internalID: -3511353146746012448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_166
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 343
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892e1f296a49ecaa0800000000000000
+      internalID: -6138805798908599656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_167
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 345
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6706871f6aeda53a0800000000000000
+      internalID: -6675778689026203530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_168
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 342
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbb04965c1b77310800000000000000
+      internalID: 1402785270381722620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_169
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 343
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d567f0a03f021d50800000000000000
+      internalID: 6706439496641504725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_170
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 343
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aea0f1095de2e610800000000000000
+      internalID: 1649141380111445669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_171
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 336
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7dfa9b9ab4e05c40800000000000000
+      internalID: 5499146635145051518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_172
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 326
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4767763449c2165f0800000000000000
+      internalID: -765281446378637708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_173
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 329
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89abce7c015c41580800000000000000
+      internalID: -8857237891266594152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_174
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 313
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b27402af5dbf2910800000000000000
+      internalID: 1814877393291342512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_175
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 326
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4363fbf8d205080800000000000000
+      internalID: -9200803943306349401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_176
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 313
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab0b029d87ff0980800000000000000
+      internalID: -8570359378450117722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_177
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 327
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c98d488b33ab180800000000000000
+      internalID: -9098903229552878555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_178
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 324
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600569758611800c0800000000000000
+      internalID: -4609415078769963002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_179
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 303
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88397dac09e4c9a00800000000000000
+      internalID: 764572420531524488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_180
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 328
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7789e16e28bd29210800000000000000
+      internalID: 1338373394535454839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_181
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 311
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05a3a841dd244a70800000000000000
+      internalID: 8810217147933631754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_182
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 265
+        width: 194
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9da553df7e89200800000000000000
+      internalID: 187154459243764158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_183
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 315
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0669172355016f0800000000000000
+      internalID: -715978665609502501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_184
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 315
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b81d6ca5fe8aa930800000000000000
+      internalID: 4155290792013666487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_185
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 314
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37b653691f7f1d50800000000000000
+      internalID: 6710221716822865725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_186
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 314
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a3f80624d9c3310800000000000000
+      internalID: 1386155693736671835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_187
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 313
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49300dde27da1dc00800000000000000
+      internalID: 923710107715371924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_188
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 312
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae33319d0a443e50800000000000000
+      internalID: 6788131960485265069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_189
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 313
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efc037b66c124660800000000000000
+      internalID: 7368483167817224163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_190
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 314
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ccd67975726b2b0800000000000000
+      internalID: -5569220632040846301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_191
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 315
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7a3611a5e616a10800000000000000
+      internalID: 1900921850844915688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_192
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 316
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f500d6775738c68f0800000000000000
+      internalID: -545916914280628129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_193
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 293
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6173812b11954f9d0800000000000000
+      internalID: -2741468340624541930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_194
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 297
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef92ca7c12b374a00800000000000000
+      internalID: 740625679995644414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_195
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 298
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16304d41b7db69f0800000000000000
+      internalID: -474048179252218342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_196
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf8c26454cfc3160800000000000000
+      internalID: 7006752494741917632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_197
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 299
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada71efec6e422a60800000000000000
+      internalID: 7647761347016489690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_198
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 302
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627152bac150bbf40800000000000000
+      internalID: 5745191370329757478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_199
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 299
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab5a6bede25c6be0800000000000000
+      internalID: -1482718995501392989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_200
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 301
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: becaa480faaab5270800000000000000
+      internalID: 8240367611939564779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_201
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 280
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a4a923518c5c2d0800000000000000
+      internalID: -3258978761963845012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_202
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 283
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3614523535f9ed770800000000000000
+      internalID: 8637516315569242467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_203
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 281
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd240c24d515b3020800000000000000
+      internalID: 2322539493833327323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_204
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 281
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720fdbf63b826ab80800000000000000
+      internalID: -8383968905164623833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_205
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 282
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a26d5687abe06b0800000000000000
+      internalID: -5328116282865341831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_206
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 288
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7f2f092aae6f320800000000000000
+      internalID: 2591516619535742943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_207
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 282
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af57b562d7c0cfd50800000000000000
+      internalID: 6772301671312356858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_208
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 285
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce095a20f6a2fa780800000000000000
+      internalID: -8669664101390774036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_209
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 289
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0190725014efc5360800000000000000
+      internalID: 7159877062825019664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_210
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 285
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d60fb5f6ab38a00800000000000000
+      internalID: 757654149774994786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_211
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 265
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bae0b630628ce2b0800000000000000
+      internalID: -5553920890708628815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_212
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 265
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92476921be019b580800000000000000
+      internalID: -8810992594158455767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_213
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 261
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440fb7ca6d75f3460800000000000000
+      internalID: 7223588906853986372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_214
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 261
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cdcc16505e4131b0800000000000000
+      internalID: -5678671548188406335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_215
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 261
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d547c7cdba583d0800000000000000
+      internalID: -3204966596335084248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_216
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 262
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415e1e55acc03d950800000000000000
+      internalID: 6472531152625329428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_217
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 262
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebf76e58dcbd8250800000000000000
+      internalID: 5948618320309124064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_218
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 262
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65367996aeec3580800000000000000
+      internalID: -8845933168755853974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_219
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 263
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2c31f8e381f6bf0800000000000000
+      internalID: -329017590807280978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_220
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 265
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6bdf1ca241c1320800000000000000
+      internalID: 2529919264551188219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_221
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 264
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692444de6443044c0800000000000000
+      internalID: -4305383764533165418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_222
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 261
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8768c7e126fba090800000000000000
+      internalID: -8022047685747382385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_223
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 246
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84dd133e547cb8230800000000000000
+      internalID: 3642223826637544776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: undefined - Imgur_224
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 245
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3123d1de8af61fd0800000000000000
+      internalID: -2371432662451412676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      undefined - Imgur_0: -2459997212589772163
+      undefined - Imgur_1: -1631164333299321304
+      undefined - Imgur_10: 4262122074016667468
+      undefined - Imgur_100: -6899345117672483474
+      undefined - Imgur_101: -1720177059939292597
+      undefined - Imgur_102: 4434601630568300219
+      undefined - Imgur_103: 1402669467075011821
+      undefined - Imgur_104: -7969539834132447196
+      undefined - Imgur_105: -5327410534408390774
+      undefined - Imgur_106: -232476735029237251
+      undefined - Imgur_107: 8101206653775631004
+      undefined - Imgur_108: -3912771391453129903
+      undefined - Imgur_109: 1999224075148378408
+      undefined - Imgur_11: 57377120749025715
+      undefined - Imgur_110: -4573273434010958578
+      undefined - Imgur_111: 5593576253541959549
+      undefined - Imgur_112: -7343220375966633905
+      undefined - Imgur_113: 1432407772423935029
+      undefined - Imgur_114: 1138979071076344186
+      undefined - Imgur_115: -4585195666587042309
+      undefined - Imgur_116: 217680774781727100
+      undefined - Imgur_117: 2513679196640789089
+      undefined - Imgur_118: -3117722316257949799
+      undefined - Imgur_119: -6575997007642247272
+      undefined - Imgur_12: 7465504349221928740
+      undefined - Imgur_120: -35185471596889339
+      undefined - Imgur_121: 1350712175146347925
+      undefined - Imgur_122: -5080009142364855629
+      undefined - Imgur_123: 2045132270629952518
+      undefined - Imgur_124: -6360291732566025254
+      undefined - Imgur_125: 6019427896443077530
+      undefined - Imgur_126: 4412459953604284201
+      undefined - Imgur_127: 7333921913246516820
+      undefined - Imgur_128: -2260096744991226599
+      undefined - Imgur_129: 6989732712035766478
+      undefined - Imgur_13: 349743148773028476
+      undefined - Imgur_130: 3397018387336802465
+      undefined - Imgur_131: 8798823231779027099
+      undefined - Imgur_132: -8481278623091919183
+      undefined - Imgur_133: 8095436291840070387
+      undefined - Imgur_134: -5996190564490334187
+      undefined - Imgur_135: -1724092265282626683
+      undefined - Imgur_136: 1385026635807993530
+      undefined - Imgur_137: 1902841889880899737
+      undefined - Imgur_138: 7913922057239779910
+      undefined - Imgur_139: -3430137217023855850
+      undefined - Imgur_14: 5078214970769225182
+      undefined - Imgur_140: -7377979470520109783
+      undefined - Imgur_141: 8326312355418962359
+      undefined - Imgur_142: -2548095893029004805
+      undefined - Imgur_143: -2828943758941685099
+      undefined - Imgur_144: 4633070686820926064
+      undefined - Imgur_145: 1426974128606807567
+      undefined - Imgur_146: 9168076012290874114
+      undefined - Imgur_147: 7237274757182944421
+      undefined - Imgur_148: -2288132014072322235
+      undefined - Imgur_149: 9187884964622541410
+      undefined - Imgur_15: 1295707711443247836
+      undefined - Imgur_150: -3944100198537656021
+      undefined - Imgur_151: 4445575184673421560
+      undefined - Imgur_152: -6547994976134787923
+      undefined - Imgur_153: -5698922641886153334
+      undefined - Imgur_154: -4285249956397249778
+      undefined - Imgur_155: 5453282634256999953
+      undefined - Imgur_156: -8308030678068549766
+      undefined - Imgur_157: -848313830803736526
+      undefined - Imgur_158: -8874329610471224767
+      undefined - Imgur_159: 3710082492252304199
+      undefined - Imgur_16: 7366239837916559985
+      undefined - Imgur_160: 3429160605794845852
+      undefined - Imgur_161: 3105926471497267730
+      undefined - Imgur_162: -4989164609358001238
+      undefined - Imgur_163: -4023526551568837900
+      undefined - Imgur_164: 4523043806775339925
+      undefined - Imgur_165: -3511353146746012448
+      undefined - Imgur_166: -6138805798908599656
+      undefined - Imgur_167: -6675778689026203530
+      undefined - Imgur_168: 1402785270381722620
+      undefined - Imgur_169: 6706439496641504725
+      undefined - Imgur_17: 8549268159606078211
+      undefined - Imgur_170: 1649141380111445669
+      undefined - Imgur_171: 5499146635145051518
+      undefined - Imgur_172: -765281446378637708
+      undefined - Imgur_173: -8857237891266594152
+      undefined - Imgur_174: 1814877393291342512
+      undefined - Imgur_175: -9200803943306349401
+      undefined - Imgur_176: -8570359378450117722
+      undefined - Imgur_177: -9098903229552878555
+      undefined - Imgur_178: -4609415078769963002
+      undefined - Imgur_179: 764572420531524488
+      undefined - Imgur_18: -6022230937435352282
+      undefined - Imgur_180: 1338373394535454839
+      undefined - Imgur_181: 8810217147933631754
+      undefined - Imgur_182: 187154459243764158
+      undefined - Imgur_183: -715978665609502501
+      undefined - Imgur_184: 4155290792013666487
+      undefined - Imgur_185: 6710221716822865725
+      undefined - Imgur_186: 1386155693736671835
+      undefined - Imgur_187: 923710107715371924
+      undefined - Imgur_188: 6788131960485265069
+      undefined - Imgur_189: 7368483167817224163
+      undefined - Imgur_19: 2360592035146525189
+      undefined - Imgur_190: -5569220632040846301
+      undefined - Imgur_191: 1900921850844915688
+      undefined - Imgur_192: -545916914280628129
+      undefined - Imgur_193: -2741468340624541930
+      undefined - Imgur_194: 740625679995644414
+      undefined - Imgur_195: -474048179252218342
+      undefined - Imgur_196: 7006752494741917632
+      undefined - Imgur_197: 7647761347016489690
+      undefined - Imgur_198: 5745191370329757478
+      undefined - Imgur_199: -1482718995501392989
+      undefined - Imgur_2: -7153315302098180922
+      undefined - Imgur_20: 2490352664258425502
+      undefined - Imgur_200: 8240367611939564779
+      undefined - Imgur_201: -3258978761963845012
+      undefined - Imgur_202: 8637516315569242467
+      undefined - Imgur_203: 2322539493833327323
+      undefined - Imgur_204: -8383968905164623833
+      undefined - Imgur_205: -5328116282865341831
+      undefined - Imgur_206: 2591516619535742943
+      undefined - Imgur_207: 6772301671312356858
+      undefined - Imgur_208: -8669664101390774036
+      undefined - Imgur_209: 7159877062825019664
+      undefined - Imgur_21: -6937808021507684650
+      undefined - Imgur_210: 757654149774994786
+      undefined - Imgur_211: -5553920890708628815
+      undefined - Imgur_212: -8810992594158455767
+      undefined - Imgur_213: 7223588906853986372
+      undefined - Imgur_214: -5678671548188406335
+      undefined - Imgur_215: -3204966596335084248
+      undefined - Imgur_216: 6472531152625329428
+      undefined - Imgur_217: 5948618320309124064
+      undefined - Imgur_218: -8845933168755853974
+      undefined - Imgur_219: -329017590807280978
+      undefined - Imgur_22: -34752452420368983
+      undefined - Imgur_220: 2529919264551188219
+      undefined - Imgur_221: -4305383764533165418
+      undefined - Imgur_222: -8022047685747382385
+      undefined - Imgur_223: 3642223826637544776
+      undefined - Imgur_224: -2371432662451412676
+      undefined - Imgur_23: 2925059850264769345
+      undefined - Imgur_24: 1977924587129221747
+      undefined - Imgur_25: 2852872275518557146
+      undefined - Imgur_26: 1422560813617285833
+      undefined - Imgur_27: -1210431683375190019
+      undefined - Imgur_28: 2265709710889903220
+      undefined - Imgur_29: -4625527431212804485
+      undefined - Imgur_3: 1230708905645671477
+      undefined - Imgur_30: 8458669807917954137
+      undefined - Imgur_31: 618163836009282408
+      undefined - Imgur_32: -2970498000742894274
+      undefined - Imgur_33: -955216564681109317
+      undefined - Imgur_34: -6387177736548396956
+      undefined - Imgur_35: -4345898045962704908
+      undefined - Imgur_36: -7294950647495966334
+      undefined - Imgur_37: 5174913998902577058
+      undefined - Imgur_38: 8420389405724030963
+      undefined - Imgur_39: 420676816806296895
+      undefined - Imgur_4: -6767605050790213331
+      undefined - Imgur_40: -7897449427700713147
+      undefined - Imgur_41: -2998954515884356652
+      undefined - Imgur_42: 3046054046983283083
+      undefined - Imgur_43: -3795990363237017684
+      undefined - Imgur_44: -135612618592797261
+      undefined - Imgur_45: -5518061067332819870
+      undefined - Imgur_46: -2536690834170360777
+      undefined - Imgur_47: 7609741361206440501
+      undefined - Imgur_48: -3812199676314733022
+      undefined - Imgur_49: -1162482576555005631
+      undefined - Imgur_5: -5938514016157378139
+      undefined - Imgur_50: -5170918442893368305
+      undefined - Imgur_51: -4446189761150530003
+      undefined - Imgur_52: 1657903745302407482
+      undefined - Imgur_53: 521451807772615861
+      undefined - Imgur_54: 5880410835521542343
+      undefined - Imgur_55: -1055476313270453491
+      undefined - Imgur_56: 1043221718236832333
+      undefined - Imgur_57: 8792626382343327992
+      undefined - Imgur_58: -4575738788438785392
+      undefined - Imgur_59: 430422763452516115
+      undefined - Imgur_6: 5460573542627417499
+      undefined - Imgur_60: -6864370540506198573
+      undefined - Imgur_61: -6414047762548695743
+      undefined - Imgur_62: 6677062578834067719
+      undefined - Imgur_63: 4045954516122715572
+      undefined - Imgur_64: 5463335322550277173
+      undefined - Imgur_65: 4728746631530955634
+      undefined - Imgur_66: -2648724980509244925
+      undefined - Imgur_67: -8430322273422378144
+      undefined - Imgur_68: 4416927791818543700
+      undefined - Imgur_69: 7162973000148333680
+      undefined - Imgur_7: -4328155585780722695
+      undefined - Imgur_70: 1686377445752447331
+      undefined - Imgur_71: -7039926730275321119
+      undefined - Imgur_72: 3629411710927342659
+      undefined - Imgur_73: -4500430465397323748
+      undefined - Imgur_74: 7784255046146861255
+      undefined - Imgur_75: -8584822415188598001
+      undefined - Imgur_76: 4666315658076827960
+      undefined - Imgur_77: -3117288680813005528
+      undefined - Imgur_78: 5960446180940360466
+      undefined - Imgur_79: 4415039968162811629
+      undefined - Imgur_8: -2583609528573096823
+      undefined - Imgur_80: 2182491375159713734
+      undefined - Imgur_81: 3279804706949364417
+      undefined - Imgur_82: 5251848920957913263
+      undefined - Imgur_83: -7937000089699202903
+      undefined - Imgur_84: 1539868513423273929
+      undefined - Imgur_85: -2732968709637021442
+      undefined - Imgur_86: -613373436095419878
+      undefined - Imgur_87: -5205441945031897475
+      undefined - Imgur_88: -1424388020434920363
+      undefined - Imgur_89: -7771061610658917579
+      undefined - Imgur_9: -6034590068324861663
+      undefined - Imgur_90: 5456226249951753212
+      undefined - Imgur_91: -7462915229497467336
+      undefined - Imgur_92: 3082116005705760335
+      undefined - Imgur_93: -4845504345137741021
+      undefined - Imgur_94: -143543577422577466
+      undefined - Imgur_95: -1006702349707145713
+      undefined - Imgur_96: 7109559284652071560
+      undefined - Imgur_97: -8421701356035960957
+      undefined - Imgur_98: -6868529688493190874
+      undefined - Imgur_99: -8036952042142245596
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

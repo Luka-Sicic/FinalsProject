@@ -1,0 +1,15 @@
+{
+    "asset": "f882c38d4f3032442b7560eb5ab4a26b",
+    "fileName": "019ea546-60ac-7cb4-86c4-f6d1bb88e531.mp3",
+    "prompt": "Dynamic stealth music",
+    "negativePrompt": "",
+    "model": "google-lyria-3-pro",
+    "modelName": "Google Lyria 3 Pro",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 22.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

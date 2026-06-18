@@ -1,0 +1,15 @@
+{
+    "asset": "d8dd5ca147d62e14c871ed518bb73d00",
+    "fileName": "019ea53f-92be-7fa7-9f86-177d9176b73f.wav",
+    "prompt": "Reloading a shotgun",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 2.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

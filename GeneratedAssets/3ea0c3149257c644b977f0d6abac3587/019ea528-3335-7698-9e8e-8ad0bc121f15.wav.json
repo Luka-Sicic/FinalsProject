@@ -1,0 +1,15 @@
+{
+    "asset": "3ea0c3149257c644b977f0d6abac3587",
+    "fileName": "019ea528-3335-7698-9e8e-8ad0bc121f15.wav",
+    "prompt": "Getting smacked by an object",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 1.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

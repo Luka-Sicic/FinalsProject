@@ -1,0 +1,15 @@
+{
+    "asset": "a70c30c058cdd2c408b6613dac10aec4",
+    "fileName": "019ea52d-6196-7f68-be6b-ba78e25a931f.wav",
+    "prompt": "Firing a shotgun",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 1.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

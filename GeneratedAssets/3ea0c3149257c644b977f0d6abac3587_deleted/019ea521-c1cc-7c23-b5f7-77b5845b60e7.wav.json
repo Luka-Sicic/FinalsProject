@@ -1,0 +1,15 @@
+{
+    "asset": "3ea0c3149257c644b977f0d6abac3587",
+    "fileName": "019ea521-c1cc-7c23-b5f7-77b5845b60e7.wav",
+    "prompt": "The sound of a bat hitting a person",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 1.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}
