@@ -1,6 +1,7 @@
 # FinalsProject
 
 > Bachelor's degree thesis project — University Department of Professional Studies, University of Split
+>
 > Work in progress
 
 A 2D game developed in Unity as part of my undergraduate thesis in Computer Science. 
