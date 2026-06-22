@@ -1,6 +1,7 @@
 # FinalsProject
 
 > Bachelor's degree thesis project — University Department of Professional Studies, University of Split
+> Work in progress
 
 A 2D game developed in Unity as part of my undergraduate thesis in Computer Science. 
 
@@ -42,7 +43,7 @@ Assets/
 └── Shaders/       # Custom ShaderLab / HLSL shaders
 ```
 
-> Note: Folder names may vary — update to match your actual structure.
+> Note: Folder names may vary — the project is still a work in progress.
 
 ## Author
 
