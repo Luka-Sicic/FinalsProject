@@ -28,7 +28,7 @@ public class Shotgun : Weapon
         {
             float randomSpread = Random.Range(-spreadAngle, spreadAngle);
             Quaternion spreadRotation = firePoint.rotation * Quaternion.Euler(0, 0, randomSpread);
-            
+
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, spreadRotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             if (rb != null)

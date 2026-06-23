@@ -5,7 +5,7 @@ using TMPro;
 public class VolumeSliderUI : MonoBehaviour
 {
     public enum VolumeType { Master, Music, SFX }
-    
+
     [SerializeField] private VolumeType _type;
     [SerializeField] private Slider _slider;
     [SerializeField] private TMP_Text _valueText;
@@ -20,7 +20,7 @@ public class VolumeSliderUI : MonoBehaviour
 
     private void Start()
     {
-        if (_slider != null) Setup(); 
+        if (_slider != null) Setup();
     }
 
     private void Setup()
@@ -35,10 +35,10 @@ public class VolumeSliderUI : MonoBehaviour
                 case VolumeType.SFX: currentVol = AudioManager.Instance.GetVolume("SFXVolume"); break;
             }
         }
-        
+
         _slider.value = currentVol;
         UpdateText(currentVol);
-        
+
         _slider.onValueChanged.RemoveAllListeners();
         _slider.onValueChanged.AddListener(OnSliderChanged);
     }

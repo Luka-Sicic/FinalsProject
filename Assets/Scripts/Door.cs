@@ -21,7 +21,7 @@ public class Door : MonoBehaviour, IInteractable
 {
         rb = GetComponent<Rigidbody2D>();
         hinge = GetComponent<HingeJoint2D>();
-        
+
         if (hinge != null)
         {
             closedLimits = hinge.limits;
@@ -85,30 +85,24 @@ public class Door : MonoBehaviour, IInteractable
         {
             _audioSource.PlayOneShot(_kickSound);
         }
-        
-        lethalTimer = 1.0f; 
+
+        lethalTimer = 1.0f;
         if (isLocked) UnlockDoor();
         _hasBeenOpened = true;
-        
+
         if (rb != null)
         {
-            
+
             rb.bodyType = RigidbodyType2D.Dynamic;
             rb.WakeUp();
-            
-            
+
             Vector2 doorCenter = rb.worldCenterOfMass;
             Vector2 direction = (doorCenter - kickerPosition).normalized;
-            
-            
-            
+
             rb.AddForceAtPosition(direction * kickForce, doorCenter, ForceMode2D.Impulse);
-            
-            
+
             Debug.Log("[Door] Kicked door: " + name + " with force " + kickForce);
 
-            
-            
             CheckImmediateCollisions();
         }
     }
@@ -118,7 +112,7 @@ public class Door : MonoBehaviour, IInteractable
         Collider2D[] myColliders = GetComponents<Collider2D>();
         ContactFilter2D filter = new ContactFilter2D().NoFilter();
         filter.useTriggers = false;
-        
+
         List<Collider2D> results = new List<Collider2D>();
         foreach (var col in myColliders)
         {
@@ -135,7 +129,7 @@ public class Door : MonoBehaviour, IInteractable
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        
+
         if (lethalTimer > 0)
         {
             HandleLethalCollision(collision.gameObject);
@@ -154,15 +148,13 @@ public class Door : MonoBehaviour, IInteractable
     {
         Debug.Log("[Door] Collision while lethal with: " + other.name + " (Layer: " + LayerMask.LayerToName(other.layer) + ")");
 
-        
-        if (other.GetComponentInParent<Door>() != null) 
+        if (other.GetComponentInParent<Door>() != null)
         {
             Debug.Log("[Door] Ignored (Door)");
             return;
         }
 
-        
-        if (other.CompareTag("Player") || other.GetComponentInParent<PlayerController>() != null) 
+        if (other.CompareTag("Player") || other.GetComponentInParent<PlayerController>() != null)
         {
             Debug.Log("[Door] Ignored (Player)");
             return;

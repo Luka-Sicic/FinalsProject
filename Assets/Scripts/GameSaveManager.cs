@@ -27,8 +27,7 @@ namespace Project.Scripts
     {
         private const string SaveDataKey = "GameSaveSystemData";
         private const string CurrentSlotKey = "CurrentSlotId";
-        
-        // Backward compatibility keys
+
         private const string LevelKey = "LastLevelIndex";
         private const string WeaponKey = "EquippedWeapon";
         private const string HasSaveKey = "HasGameSave";
@@ -47,8 +46,7 @@ namespace Project.Scripts
                 string json = PlayerPrefs.GetString(SaveDataKey);
                 return JsonUtility.FromJson<SaveSystemData>(json);
             }
-            
-            // Migration from old system if exists
+
             if (PlayerPrefs.GetInt(HasSaveKey, 0) == 1)
             {
                 SaveSystemData data = new SaveSystemData();
@@ -63,13 +61,12 @@ namespace Project.Scripts
                 };
                 data.slots.Add(slot);
                 SaveData(data);
-                
-                // Clean up old keys
+
                 PlayerPrefs.DeleteKey(HasSaveKey);
                 PlayerPrefs.DeleteKey(LevelKey);
                 PlayerPrefs.DeleteKey(WeaponKey);
                 PlayerPrefs.Save();
-                
+
                 return data;
             }
 
@@ -92,7 +89,7 @@ namespace Project.Scripts
 
             SaveSystemData data = LoadData();
             SaveSlot slot = data.slots.FirstOrDefault(s => s.slotId == currentSlotId);
-            
+
             if (slot == null)
             {
                 slot = new SaveSlot { slotId = currentSlotId };
@@ -101,7 +98,7 @@ namespace Project.Scripts
 
             int targetLevelIndex = levelIndex == -1 ? SceneManager.GetActiveScene().buildIndex : levelIndex;
             slot.levelIndex = targetLevelIndex;
-            
+
             string scenePath = SceneUtility.GetScenePathByBuildIndex(targetLevelIndex);
             if (!string.IsNullOrEmpty(scenePath))
             {
@@ -137,8 +134,7 @@ namespace Project.Scripts
         public static int NewGameAllocatedSlot()
         {
             SaveSystemData data = LoadData();
-            
-            // Find first empty slot (0-3)
+
             for (int i = 0; i < 4; i++)
             {
                 if (data.slots.All(s => s.slotId != i))
@@ -147,7 +143,6 @@ namespace Project.Scripts
                 }
             }
 
-            // If all full, find oldest
             SaveSlot oldest = data.slots.OrderBy(s => s.timestamp).First();
             return oldest.slotId;
         }
@@ -156,7 +151,7 @@ namespace Project.Scripts
         {
             SaveSystemData data = LoadData();
             SaveSlot slot = data.slots.FirstOrDefault(s => s.slotId == slotId);
-            
+
             if (slot != null)
             {
                 currentSlotId = slotId;
@@ -191,12 +186,9 @@ namespace Project.Scripts
             PlayerPrefs.SetInt(CurrentSlotKey, currentSlotId);
             PlayerPrefs.Save();
 
-            // Perform an initial save for the first level
-            // We assume Level 1 is at index 1 as per build settings
             SaveGame("", 1);
         }
 
-        // Compatibility Methods
         public static bool HasSave()
         {
             return LoadData().slots.Count > 0;
@@ -205,7 +197,7 @@ namespace Project.Scripts
         public static string GetSavedWeapon()
         {
             if (currentSlotId == -1) return "";
-            
+
             SaveSystemData data = LoadData();
             SaveSlot slot = data.slots.FirstOrDefault(s => s.slotId == currentSlotId);
             return slot?.weaponPrefabName ?? "";
@@ -219,7 +211,6 @@ namespace Project.Scripts
             currentSlotId = -1;
         }
 
-        // Keep this for scripts that still use the old parameterless LoadGame
         public static void LoadGame()
         {
             if (currentSlotId != -1)
@@ -231,7 +222,7 @@ namespace Project.Scripts
                 SaveSystemData data = LoadData();
                 if (data.slots.Count > 0)
                 {
-                    // Load the most recent one
+
                     SaveSlot latest = data.slots.OrderByDescending(s => s.timestamp).First();
                     LoadGame(latest.slotId);
                 }

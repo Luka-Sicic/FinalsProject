@@ -10,7 +10,7 @@ namespace Project.Scripts
         [SerializeField] private Sprite[] bloodSprites;
         [SerializeField] private bool canBleed = true;
         [SerializeField] private float bloodOffsetRange = 0.2f;
-        
+
         public int CurrentHealth => _currentHealth;
         public int MaxHealth => maxHealth;
 
@@ -45,7 +45,7 @@ private bool _isDead;
             if (bloodSprites == null || bloodSprites.Length == 0) return;
 
             GameObject blood = new GameObject("BloodSplatter");
-            
+
             Vector3 offset = new Vector3(
                 Random.Range(-bloodOffsetRange, bloodOffsetRange),
                 Random.Range(-bloodOffsetRange, bloodOffsetRange),
@@ -75,17 +75,14 @@ private bool _isDead;
                 Instantiate(dropPrefab, transform.position, Quaternion.identity);
             }
 
-            
             GameObject corpse = new GameObject(name + "_Corpse");
             corpse.transform.position = transform.position;
             corpse.transform.rotation = transform.rotation;
             corpse.transform.localScale = transform.localScale;
 
-            
             SpriteRenderer sr = corpse.AddComponent<SpriteRenderer>();
             sr.sprite = deathSprite;
-            
-            
+
             SpriteRenderer originalSR = GetComponent<SpriteRenderer>();
             if (originalSR != null)
             {

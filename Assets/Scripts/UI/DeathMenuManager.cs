@@ -52,8 +52,7 @@ namespace Project.Scripts.UI
                 statusText.text = "You died";
 
             Time.timeScale = 0f;
-            
-            
+
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
             Debug.Log("[DeathMenuManager] Time.timeScale set to 0 and cursor unlocked");
@@ -68,7 +67,7 @@ namespace Project.Scripts.UI
         public void LoadMainMenu()
         {
             Time.timeScale = 1f;
-            SceneManager.LoadScene(0); 
+            SceneManager.LoadScene(0);
         }
     }
 }

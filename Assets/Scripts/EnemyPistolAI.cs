@@ -98,14 +98,13 @@ namespace Project.Scripts
 
         void Update()
         {
-            
+
             if (_moveResumeTimer > 0) _moveResumeTimer -= Time.deltaTime;
             if (_fireTimer > 0) _fireTimer -= Time.deltaTime;
 
             float dist = _player != null ? Vector2.Distance(transform.position, _player.position) : float.MaxValue;
             bool canSee = _player != null && HasLineOfSight() && dist <= chaseRange;
 
-            
             if (canSee)
             {
                 _lastSeenPosition = _player.position;
@@ -116,7 +115,7 @@ namespace Project.Scripts
 
                 if (dist <= shootRange)
                 {
-                    
+
                     if (_aiPath != null) _aiPath.canMove = false;
 
                     if (_fireTimer <= 0)
@@ -127,7 +126,7 @@ namespace Project.Scripts
                 }
                 else
                 {
-                    
+
                     if (_moveResumeTimer <= 0 && _aiPath != null)
                     {
                         _aiPath.canMove = true;
@@ -138,7 +137,7 @@ namespace Project.Scripts
             {
                 if (_setter != null && _setter.target != null)
                 {
-                    
+
                     _setter.target = null;
                     _aiPath.destination = _lastSeenPosition;
                     _isSearching = true;
@@ -243,7 +242,7 @@ namespace Project.Scripts
             }
 
             Quaternion rotation = transform.rotation * Quaternion.Euler(0, 0, -rotationOffset);
-            
+
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             if (rb != null)

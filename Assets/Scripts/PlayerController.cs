@@ -21,14 +21,13 @@ public class PlayerController : MonoBehaviour
 
     [Header("Kick Settings")]
 public float kickRange = 0.8f;
-    public int kickDamage = 0; 
+    public int kickDamage = 0;
     public float kickForce = 5f;
     public LayerMask kickLayers;
 
     Vector2 moveDirection;
     Vector2 mousePosition;
 
-    
     private static readonly int IsWalkingHash = Animator.StringToHash("IsWalking");
     private static readonly int PlayerKickHash = Animator.StringToHash("playerkick");
 
@@ -54,7 +53,7 @@ public float kickRange = 0.8f;
     {
         if (rb == null) rb = GetComponent<Rigidbody2D>();
         if (animator == null) animator = GetComponent<Animator>();
-        
+
         rb.interpolation = RigidbodyInterpolation2D.Interpolate;
 
         LoadSavedWeapon();
@@ -74,8 +73,7 @@ public float kickRange = 0.8f;
                 if (newWeapon != null)
                 {
                     EquipWeapon(newWeapon);
-                    
-                    
+
                     UpdateAnimatorBools(savedWeaponName);
                 }
                 break;
@@ -110,7 +108,7 @@ public float kickRange = 0.8f;
         if (attackAction != null && attackAction.action.WasPressedThisFrame() && weapon != null && !weapon.IsReloading)
         {
             weapon.Fire();
-            // Trigger weapon pose when firing to ensure we stay in it
+
             if (weapon.name.Contains("Shotgun")) animator.SetTrigger("playershotgun");
             else if (weapon.name.Contains("Pistol")) animator.SetTrigger("playerpistol");
             else if (weapon.name.Contains("Bat")) animator.SetTrigger("playerbat");
@@ -140,8 +138,6 @@ if (animator != null)
             animator.SetTrigger(PlayerKickHash);
         }
 
-        
-        
         Vector2 kickOrigin = (Vector2)transform.position + (Vector2)transform.right * 0.5f;
         Collider2D[] hitColliders = Physics2D.OverlapCircleAll(kickOrigin, kickRange, kickLayers);
 
@@ -154,7 +150,7 @@ if (animator != null)
 
             if (hitCollider.CompareTag("Enemy"))
             {
-                
+
                 if (hitCollider.TryGetComponent<EnemyAStarFollow>(out var aStarEnemy))
                 {
                     aStarEnemy.Stun(1f);
@@ -164,7 +160,6 @@ if (animator != null)
                     shotgunEnemy.Stun(1f);
                 }
 
-                
                 Rigidbody2D enemyRb = hitCollider.GetComponent<Rigidbody2D>();
                 if (enemyRb == null) enemyRb = hitCollider.GetComponentInParent<Rigidbody2D>();
 
@@ -174,8 +169,6 @@ if (animator != null)
                 }
             }
 
-            
-            
             if (kickDamage > 0 && hitCollider.TryGetComponent<Health>(out Health health))
             {
                 health.TakeDamage(kickDamage);
@@ -194,16 +187,15 @@ if (animator != null)
         weapon.transform.SetParent(transform);
         weapon.transform.localPosition = Vector3.zero;
         weapon.transform.localRotation = Quaternion.identity;
-        
+
         UpdateAnimatorBools(newWeapon.name);
     }
 
     void FixedUpdate()
     {
-        
+
         rb.linearVelocity = moveDirection * moveSpeed;
 
-        
         Vector2 lookDirection = mousePosition - rb.position;
         float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
         rb.MoveRotation(angle);

@@ -28,13 +28,11 @@ namespace Project.Scripts
             _meshRenderer = GetComponent<MeshRenderer>();
             _meshFilter.mesh = _mesh;
 
-            
             if (_meshRenderer.sharedMaterial == null)
             {
                 _meshRenderer.sharedMaterial = new Material(Shader.Find("Universal Render Pipeline/2D/Sprite-Unlit-Default"));
             }
 
-            
             if (_meshRenderer.sortingLayerName == "Default" && _meshRenderer.sortingOrder == 0)
             {
                 _meshRenderer.sortingLayerName = "Ground";
@@ -64,7 +62,7 @@ namespace Project.Scripts
 
         private void UpdateMesh()
         {
-            int vertexCount = rayCount + 1 + 1; 
+            int vertexCount = rayCount + 1 + 1;
             if (_vertices == null || _vertices.Length != vertexCount)
             {
                 _vertices = new Vector3[vertexCount];
@@ -84,9 +82,9 @@ namespace Project.Scripts
             {
                 float angleRad = (currentAngle + transform.eulerAngles.z) * Mathf.Deg2Rad;
                 Vector3 direction = new Vector3(Mathf.Cos(angleRad), Mathf.Sin(angleRad));
-                
+
                 RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, viewDistance, obstacleLayer);
-                
+
                 Vector3 vertex;
                 if (hit.collider != null)
                 {
@@ -99,8 +97,7 @@ namespace Project.Scripts
 
                 _vertices[i + 1] = vertex;
                 _colors[i + 1] = _currentColor;
-                
-                
+
                 _uv[i + 1] = new Vector2(0.5f + vertex.x / (viewDistance * 2), 0.5f + vertex.y / (viewDistance * 2));
 
                 if (i < rayCount)

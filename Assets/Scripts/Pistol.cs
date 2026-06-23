@@ -22,7 +22,6 @@ public class Pistol : Weapon
 
         NoiseManager.MakeNoise(transform.position, noiseRadius);
 
-        
 GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         if (rb != null)

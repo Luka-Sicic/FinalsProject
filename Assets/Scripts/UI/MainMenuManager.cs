@@ -15,8 +15,7 @@ namespace Project.Scripts.UI
         public void NewGame()
         {
             int slotId = GameSaveManager.NewGameAllocatedSlot();
-            
-            // Check if this slot already has data (overwrite)
+
             var slots = GameSaveManager.GetSlots();
             bool isOverwrite = slots.Exists(s => s.slotId == slotId);
 
@@ -62,7 +61,7 @@ namespace Project.Scripts.UI
             }
             else
             {
-                // Fallback to old behavior if panel is not assigned
+
                 if (GameSaveManager.HasSave())
                 {
                     GameSaveManager.LoadGame();

@@ -16,7 +16,7 @@ namespace MyGame.Audio
         private int _currentStealthIndex = 0;
         private bool _inCombat = false;
         private bool _returningToStealth = false;
-        
+
         private float _combatCheckInterval = 0.5f;
         private float _combatCheckTimer = 0f;
         private float _combatExitTimer = 0f;
@@ -35,8 +35,7 @@ namespace MyGame.Audio
                     _audioSource = gameObject.AddComponent<AudioSource>();
                 }
             }
-            
-            
+
             _audioSource.spatialBlend = 0f;
             _audioSource.playOnAwake = false;
 
@@ -55,10 +54,7 @@ namespace MyGame.Audio
         {
             if (_stealthClips != null && _stealthClips.Length > 0)
             {
-                
-                
-                
-                
+
                 PlayNextStealth();
             }
             else
@@ -73,7 +69,7 @@ namespace MyGame.Audio
 
             if (_inCombat)
             {
-                
+
                 if (!_audioSource.isPlaying)
                 {
                     _audioSource.Play();
@@ -81,7 +77,6 @@ namespace MyGame.Audio
                 return;
             }
 
-            
             if (!_audioSource.isPlaying)
             {
                 if (_returningToStealth)
@@ -91,7 +86,7 @@ namespace MyGame.Audio
                 }
                 else if (!_isPausing)
                 {
-                    
+
                     StartPause();
                 }
             }
@@ -138,7 +133,6 @@ namespace MyGame.Audio
         {
             if (_playerTransform == null) return false;
 
-            
             AIDestinationSetter[] setters = Object.FindObjectsByType<AIDestinationSetter>(FindObjectsInactive.Exclude);
             foreach (var setter in setters)
             {
@@ -154,10 +148,8 @@ namespace MyGame.Audio
         {
             _inCombat = true;
             _returningToStealth = false;
-            _isPausing = false; 
-            
-            
-            
+            _isPausing = false;
+
             if (_audioSource.clip == _combatClip && _audioSource.isPlaying)
             {
                 _audioSource.loop = true;
@@ -174,8 +166,7 @@ namespace MyGame.Audio
         {
             _inCombat = false;
             _returningToStealth = true;
-            
-            
+
             _audioSource.loop = false;
         }
 
@@ -196,7 +187,6 @@ namespace MyGame.Audio
             _currentStealthIndex = (_currentStealthIndex + 1) % _stealthClips.Length;
         }
 
-        
         public void SetClips(AudioClip combat, AudioClip[] stealth)
         {
             _combatClip = combat;

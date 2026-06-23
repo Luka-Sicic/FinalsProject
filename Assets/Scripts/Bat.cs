@@ -23,19 +23,17 @@ public class Bat : Weapon
 
     public override void Fire()
     {
-        
+
         if (audioSource != null && swingSound != null)
         {
             audioSource.PlayOneShot(swingSound);
         }
 
-        
         if (animator != null)
         {
             animator.SetTrigger(attackTrigger);
         }
 
-        
         Vector3 point = attackPoint != null ? attackPoint.position : transform.position;
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(point, attackRange, enemyLayers);
 
@@ -70,4 +68,3 @@ public class Bat : Weapon
         Gizmos.DrawWireSphere(point, attackRange);
     }
 }
-

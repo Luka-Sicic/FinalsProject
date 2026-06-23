@@ -43,7 +43,7 @@ public class RebindUI : MonoBehaviour
         if (actionLabel == null || bindingText == null) return;
 
         actionLabel.text = actionReference.action.name;
-        
+
         var binding = actionReference.action.bindings[bindingIndex];
         if (binding.isComposite)
         {

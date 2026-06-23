@@ -10,7 +10,7 @@ namespace Project.Scripts
         [Header("Detection & Movement")]
         public float chaseRange = 10f;
         public float attackRange = 1.5f;
-        public float fovAngle = 360f; 
+        public float fovAngle = 360f;
         public LayerMask obstacleLayer;
         public float rotationOffset = -90f;
 
@@ -95,14 +95,13 @@ namespace Project.Scripts
 
         void Update()
         {
-            
+
             if (_moveResumeTimer > 0) _moveResumeTimer -= Time.deltaTime;
             if (_attackTimer > 0) _attackTimer -= Time.deltaTime;
 
             float dist = _player != null ? Vector2.Distance(transform.position, _player.position) : float.MaxValue;
             bool canSee = _player != null && HasLineOfSight() && dist <= chaseRange;
 
-            
             if (canSee)
             {
                 _lastSeenPosition = _player.position;
@@ -113,7 +112,7 @@ namespace Project.Scripts
 
                 if (dist <= attackRange)
                 {
-                    
+
                     if (_aiPath != null) _aiPath.canMove = false;
 
                     if (_attackTimer <= 0)
@@ -124,7 +123,7 @@ namespace Project.Scripts
                 }
                 else
                 {
-                    
+
                     if (_moveResumeTimer <= 0 && _aiPath != null)
                     {
                         _aiPath.canMove = true;
@@ -135,7 +134,7 @@ namespace Project.Scripts
             {
                 if (_setter != null && _setter.target != null)
                 {
-                    
+
                     _setter.target = null;
                     _aiPath.destination = _lastSeenPosition;
                     _isSearching = true;
@@ -207,7 +206,6 @@ namespace Project.Scripts
             Vector2 dirToPlayer = (_player.position - transform.position).normalized;
             float dist = Vector2.Distance(transform.position, _player.position);
 
-            
             if (fovAngle < 360f)
             {
                 float currentFacingAngle = (transform.eulerAngles.z - rotationOffset) * Mathf.Deg2Rad;
@@ -215,7 +213,6 @@ namespace Project.Scripts
                 if (Vector2.Angle(forward, dirToPlayer) > fovAngle * 0.5f) return false;
             }
 
-            
             RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position, dirToPlayer, dist);
             System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
 
@@ -242,17 +239,15 @@ namespace Project.Scripts
                 audioSource.PlayOneShot(swingSound);
             }
 
-            
             if (_aiPath != null)
             {
                 _aiPath.canMove = false;
-                _moveResumeTimer = 0.5f; 
+                _moveResumeTimer = 0.5f;
             }
 
-            
             Vector3 point = attackPoint != null ? attackPoint.position : transform.position;
             Collider2D[] hitColliders = Physics2D.OverlapCircleAll(point, attackRadius, targetLayers);
-            
+
             bool hitAny = false;
             foreach (var hit in hitColliders)
             {
@@ -303,7 +298,7 @@ namespace Project.Scripts
             Gizmos.color = Color.red;
             Vector3 point = attackPoint != null ? attackPoint.position : transform.position;
             Gizmos.DrawWireSphere(point, attackRadius);
-            
+
             Gizmos.color = Color.yellow;
             Gizmos.DrawWireSphere(transform.position, chaseRange);
         }

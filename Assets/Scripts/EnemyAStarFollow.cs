@@ -11,7 +11,7 @@ namespace Project.Scripts
         public float chaseRange = 5f;
         public float fovAngle = 180f;
         public LayerMask obstacleLayer;
-        
+
         [Header("Visuals")]
         [Tooltip("Offset added to rotation. If the sprite points its 'side' at the player, adjust this (usually 90 or -90).")]
         public float rotationOffset = -90f;
@@ -59,7 +59,7 @@ namespace Project.Scripts
 
             if (_aiPath != null)
             {
-                
+
                 _aiPath.enableRotation = false;
             }
 
@@ -83,8 +83,7 @@ namespace Project.Scripts
             if (canSee)
             {
                 Vector2 dirToPlayer = ((Vector2)_player.position - (Vector2)transform.position).normalized;
-                
-                
+
                 float currentFacingAngle = (transform.eulerAngles.z - rotationOffset) * Mathf.Deg2Rad;
                 Vector2 forward = new Vector2(Mathf.Cos(currentFacingAngle), Mathf.Sin(currentFacingAngle));
 
@@ -110,7 +109,7 @@ namespace Project.Scripts
             {
                 if (_setter != null && _setter.target != null)
                 {
-                    
+
                     _setter.target = null;
                     _aiPath.destination = _lastSeenPosition;
                     _isSearching = true;
@@ -146,7 +145,6 @@ namespace Project.Scripts
         {
             if (patrolPoints == null || patrolPoints.Length == 0) return;
 
-            
             if (_currentPatrolIndex < 0 || _currentPatrolIndex >= patrolPoints.Length) _currentPatrolIndex = 0;
             if (patrolPoints[_currentPatrolIndex] == null) return;
 
@@ -175,7 +173,6 @@ namespace Project.Scripts
                 _animator.SetBool("IsWalking", _aiPath.velocity.sqrMagnitude > 0.01f);
             }
 
-            
             if (_aiPath.velocity.sqrMagnitude > 0.1f)
             {
                 float targetAngle = Mathf.Atan2(_aiPath.velocity.y, _aiPath.velocity.x) * Mathf.Rad2Deg;
@@ -189,13 +186,12 @@ namespace Project.Scripts
         {
             Gizmos.color = Color.yellow;
             Gizmos.DrawWireSphere(transform.position, chaseRange);
-            
-            
+
             float currentFacingAngle = (transform.eulerAngles.z - rotationOffset) * Mathf.Deg2Rad;
             Vector3 forward = new Vector3(Mathf.Cos(currentFacingAngle), Mathf.Sin(currentFacingAngle), 0);
             Vector3 leftRay = Quaternion.Euler(0, 0, fovAngle * 0.5f) * forward;
             Vector3 rightRay = Quaternion.Euler(0, 0, -fovAngle * 0.5f) * forward;
-            
+
             Gizmos.color = Color.blue;
             Gizmos.DrawRay(transform.position, leftRay * chaseRange);
             Gizmos.DrawRay(transform.position, rightRay * chaseRange);
@@ -209,10 +205,9 @@ namespace Project.Scripts
 
         private bool HasLineOfSight(Vector2 dirToPlayer, float dist)
         {
-            
+
             RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position, dirToPlayer, dist);
-            
-            
+
             System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
 
             foreach (var hit in hits)
@@ -220,10 +215,8 @@ namespace Project.Scripts
                 if (hit.collider.gameObject == gameObject) continue;
                 if (hit.collider.CompareTag("Player")) return true;
 
-                
                 if (((1 << hit.collider.gameObject.layer) & obstacleLayer) != 0) return false;
 
-                
                 if (hit.collider.TryGetComponent<Door>(out var door) && door.isLocked) return false;
             }
 

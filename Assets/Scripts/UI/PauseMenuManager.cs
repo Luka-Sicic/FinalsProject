@@ -24,7 +24,7 @@ namespace Project.Scripts.UI
 
         private void Start()
         {
-            
+
             GameObject player = GameObject.FindGameObjectWithTag("Player");
             if (player != null)
             {
@@ -34,7 +34,6 @@ namespace Project.Scripts.UI
             if (pausePanel != null) pausePanel.SetActive(false);
             if (settingsPanel != null) settingsPanel.SetActive(false);
 
-            
             if (mouseAim != null)
             {
                 Cursor.SetCursor(mouseAim, cursorHotspot, CursorMode.Auto);
@@ -56,7 +55,7 @@ namespace Project.Scripts.UI
                 }
                 else
                 {
-                    
+
                     if (GameObject.FindGameObjectWithTag("Player") != null)
                     {
                         Pause();
@@ -70,7 +69,7 @@ namespace Project.Scripts.UI
             isPaused = true;
             Time.timeScale = 0f;
             if (pausePanel != null) pausePanel.SetActive(true);
-            
+
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
 
@@ -88,7 +87,7 @@ namespace Project.Scripts.UI
             if (settingsPanel != null) settingsPanel.SetActive(false);
 
             Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None; 
+            Cursor.lockState = CursorLockMode.None;
 
             if (mouseAim != null)
             {
@@ -110,17 +109,16 @@ namespace Project.Scripts.UI
 
         public void SaveAndQuit()
         {
-            
+
             Time.timeScale = 1f;
 
-            
             GameObject player = GameObject.FindGameObjectWithTag("Player");
             if (player != null)
             {
                 PlayerController pc = player.GetComponent<PlayerController>();
                 if (pc != null && pc.weapon != null)
                 {
-                    
+
                     string weaponName = pc.weapon.gameObject.name.Replace("(Clone)", "").Trim();
                     GameSaveManager.SaveGame(weaponName);
                 }

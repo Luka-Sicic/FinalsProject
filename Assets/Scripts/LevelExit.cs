@@ -77,21 +77,20 @@ public class LevelExit : MonoBehaviour
 
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         int nextSceneIndex = currentSceneIndex + 1;
-        
-        // Check if next scene exists
+
         bool hasNextLevel = nextSceneIndex < SceneManager.sceneCountInBuildSettings;
 
         if (player != null && player.weapon != null)
         {
             string weaponName = player.weapon.gameObject.name.Replace("(Clone)", "").Trim();
-            // Save progress to the NEXT level if it exists, otherwise don't update level index in save
+
             if (hasNextLevel)
             {
                 Project.Scripts.GameSaveManager.SaveWeapon(weaponName, nextSceneIndex);
             }
             else
             {
-                Project.Scripts.GameSaveManager.SaveWeapon(weaponName); // Save current as fallback
+                Project.Scripts.GameSaveManager.SaveWeapon(weaponName);
             }
         }
 

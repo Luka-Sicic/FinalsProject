@@ -50,7 +50,7 @@ public int maxAmmo;
         Debug.Log(gameObject.name + " reloading...");
 
         PlayReloadSound();
-        
+
         yield return new WaitForSeconds(reloadDuration);
 
         ammo = maxAmmo;

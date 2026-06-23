@@ -7,7 +7,7 @@ public class HUDController : MonoBehaviour
 {
     [Header("Health UI")]
     public TextMeshProUGUI healthText;
-    
+
     [Header("Weapon UI")]
     public Image weaponIcon;
     public TextMeshProUGUI ammoText;
@@ -32,7 +32,6 @@ if (player != null)
             playerController = player.GetComponent<PlayerController>();
         }
 
-        // Set default objective
         if (objectiveText != null)
         {
             objectiveText.text = "Objective: Find a way to the next level";

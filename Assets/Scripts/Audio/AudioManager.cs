@@ -6,7 +6,7 @@ public class AudioManager : MonoBehaviour
     public static AudioManager Instance { get; private set; }
 
     [SerializeField] private AudioMixer _mainMixer;
-    
+
     private const string MasterVolParam = "MasterVolume";
     private const string MusicVolParam = "MusicVolume";
     private const string SFXVolParam = "SFXVolume";
@@ -62,7 +62,7 @@ public class AudioManager : MonoBehaviour
     {
         if (_mainMixer != null)
         {
-            
+
             float db = volume > 0 ? Mathf.Log10(volume) * 20 : -80f;
             _mainMixer.SetFloat(parameter, db);
         }

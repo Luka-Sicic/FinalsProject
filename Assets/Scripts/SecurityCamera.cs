@@ -2,9 +2,7 @@ using UnityEngine;
 
 namespace Project.Scripts
 {
-    
-    
-    
+
     public class SecurityCamera : MonoBehaviour
     {
         [Header("Oscillation")]
@@ -45,14 +43,13 @@ namespace Project.Scripts
         {
             _baseRotation = transform.eulerAngles.z;
             _visionCone = GetComponentInChildren<VisionConeVisual>();
-            
+
             GameObject player = GameObject.FindWithTag(playerTag);
             if (player != null)
             {
                 _playerTransform = player.transform;
             }
 
-            
             if (_visionCone != null)
             {
                 _visionCone.SetFov(fov);
@@ -70,7 +67,7 @@ namespace Project.Scripts
 
         private void UpdateOscillation()
         {
-            
+
             float angle = _baseRotation + Mathf.Sin(Time.time * oscillationSpeed) * oscillationRange;
             transform.rotation = Quaternion.Euler(0, 0, angle + rotationOffset);
         }
@@ -89,8 +86,7 @@ namespace Project.Scripts
             }
             else
             {
-                
-                
+
                 _detectionTimer = Mathf.Max(0, _detectionTimer - Time.deltaTime);
                 if (_detectionTimer <= 0)
                 {
@@ -104,14 +100,11 @@ namespace Project.Scripts
             Vector3 directionToPlayer = _playerTransform.position - transform.position;
             float distanceToPlayer = directionToPlayer.magnitude;
 
-            
             if (distanceToPlayer > viewDistance) return false;
 
-            
             float angleToPlayer = Vector3.Angle(transform.right, directionToPlayer);
             if (angleToPlayer > fov / 2f) return false;
 
-            
             RaycastHit2D hit = Physics2D.Raycast(transform.position, directionToPlayer.normalized, distanceToPlayer, obstacleLayer);
             if (hit.collider != null && !hit.collider.CompareTag(playerTag))
             {
@@ -124,12 +117,10 @@ namespace Project.Scripts
         private void TriggerAlert()
         {
             _isAlerted = true;
-            
-            
-            
+
             Vector2 alertLocation = _playerTransform != null ? (Vector2)_playerTransform.position : (Vector2)transform.position;
             NoiseManager.MakeNoise(alertLocation, alertRadius);
-            
+
             Debug.Log($"Security Camera Alerted at {alertLocation}!");
         }
 
@@ -137,18 +128,16 @@ namespace Project.Scripts
         {
             if (_visionCone == null) return;
 
-            
             _visionCone.SetFov(fov);
             _visionCone.SetViewDistance(viewDistance);
 
-            
             if (_isAlerted)
             {
                 _visionCone.SetColor(alertColor);
             }
             else if (_detectionTimer > 0)
             {
-                
+
                 float t = _detectionTimer / detectionTime;
                 _visionCone.SetColor(Color.Lerp(detectingColor, alertColor, t));
             }
@@ -167,7 +156,7 @@ namespace Project.Scripts
 
             Gizmos.DrawLine(transform.position, transform.position + leftLimit * viewDistance);
             Gizmos.DrawLine(transform.position, transform.position + rightLimit * viewDistance);
-            
+
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(transform.position, alertRadius);
         }

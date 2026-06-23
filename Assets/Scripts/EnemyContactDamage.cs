@@ -7,7 +7,7 @@ namespace Project.Scripts
     {
         public int damage = 1;
         public float damageInterval = 1f;
-        
+
         private float _lastDamageTime;
 
         private void OnCollisionStay2D(Collision2D collision)

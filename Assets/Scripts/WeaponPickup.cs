@@ -7,7 +7,7 @@ public class WeaponPickup : MonoBehaviour
     public GameObject weaponPrefab;
     public float pickupDistance = 2f;
     [SerializeField] private InputActionReference interactAction;
-    
+
     [Header("Animation")]
 public string animTrigger;
     public string animBool;
@@ -52,8 +52,8 @@ public string animTrigger;
                 float currentDist = Vector2.Distance(currentInteractable.transform.position, player.transform.position);
                 if (distance < currentDist)
                 {
-                    
-                    if (currentInteractable.canvasPrompt != null) 
+
+                    if (currentInteractable.canvasPrompt != null)
                         currentInteractable.canvasPrompt.SetActive(false);
                     currentInteractable = this;
                 }
@@ -67,9 +67,9 @@ public string animTrigger;
 
         if (currentInteractable == this)
         {
-            if (canvasPrompt != null && !canvasPrompt.activeSelf) 
+            if (canvasPrompt != null && !canvasPrompt.activeSelf)
                 canvasPrompt.SetActive(true);
-            
+
             bool interactPressed = interactAction != null && interactAction.action.WasPressedThisFrame();
             if (interactPressed && Time.time >= nextPickupTime)
             {
@@ -94,7 +94,6 @@ public string animTrigger;
             return;
         }
 
-        
         Weapon prefabWeapon = weaponPrefab.GetComponent<Weapon>();
         if (player.weapon != null && player.weapon.GetType() == prefabWeapon.GetType())
         {
@@ -105,23 +104,22 @@ public string animTrigger;
 
         GameObject weaponInstance = Instantiate(weaponPrefab);
 Weapon weaponScript = weaponInstance.GetComponent<Weapon>();
-        
+
         if (weaponScript != null)
         {
             player.EquipWeapon(weaponScript);
         }
 
-        
         if (player.animator != null)
         {
-            
+
             player.animator.SetBool("HasShotgun", false);
             player.animator.SetBool("HasPistol", false);
             player.animator.SetBool("HasBat", false);
 
             if (!string.IsNullOrEmpty(animTrigger))
                 player.animator.SetTrigger(animTrigger);
-            
+
             if (!string.IsNullOrEmpty(animBool))
             {
                 player.animator.SetBool(animBool, true);

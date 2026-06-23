@@ -20,7 +20,7 @@ namespace Project.Scripts.UI
 
         public void RefreshSlots()
         {
-            // Clear existing slots
+
             foreach (Transform child in slotContainer)
             {
                 Destroy(child.gameObject);
@@ -28,15 +28,14 @@ namespace Project.Scripts.UI
 
             List<SaveSlot> slots = GameSaveManager.GetSlots();
 
-            // Create 4 slots
             for (int i = 0; i < 4; i++)
             {
                 int slotId = i;
                 GameObject slotObj = Instantiate(slotPrefab, slotContainer);
                 SaveSlotUI ui = slotObj.GetComponent<SaveSlotUI>();
-                
+
                 SaveSlot slotData = slots.Find(s => s.slotId == slotId);
-                
+
                 if (slotData != null)
                 {
                     ui.Setup(slotData, () => LoadSlot(slotId), () => DeleteSlot(slotId));
