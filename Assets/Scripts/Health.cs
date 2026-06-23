@@ -11,8 +11,11 @@ namespace Project.Scripts
         [SerializeField] private bool canBleed = true;
         [SerializeField] private float bloodOffsetRange = 0.2f;
         
+        public int CurrentHealth => _currentHealth;
+        public int MaxHealth => maxHealth;
+
         private int _currentHealth;
-        private bool _isDead;
+private bool _isDead;
 
         public static System.Action OnPlayerDeath;
 

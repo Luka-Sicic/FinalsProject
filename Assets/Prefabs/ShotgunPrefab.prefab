@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5823d93ffac6768458c068010e9f8579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shotgun
+  weaponIcon: {fileID: -5263484339560176563, guid: 6eeb7440068f7ba4a86fdc863a705b3c, type: 3}
   ammo: 0
   maxAmmo: 0
   spareReloads: 0
@@ -80,7 +81,7 @@ AudioSource:
   m_GameObject: {fileID: 146325147360164459}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 4528978161235921277, guid: 0e5ee366abe480342904288820a18054, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0

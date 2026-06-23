@@ -77,6 +77,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19e55b615158c404ba65e7751bfe67dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bat
+  weaponIcon: {fileID: 8319713382622770751, guid: 9f64d7c006130a34998d392de5501063, type: 3}
   ammo: 0
   maxAmmo: 0
   spareReloads: 0
@@ -84,6 +85,7 @@ MonoBehaviour:
   noiseRadius: 15
   audioSource: {fileID: 8476665060218387145}
   fireSounds: []
+  reloadSounds: []
   damage: 10
   attackRange: 0.75
   attackPoint: {fileID: 6304485153560465665}
@@ -102,7 +104,7 @@ AudioSource:
   m_GameObject: {fileID: 2508144980908201369}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 4528978161235921277, guid: 0e5ee366abe480342904288820a18054, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0

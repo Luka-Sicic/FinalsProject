@@ -3,8 +3,9 @@ using System.Collections;
 
 public abstract class Weapon : MonoBehaviour
 {
+    public Sprite weaponIcon;
     public int ammo;
-    public int maxAmmo;
+public int maxAmmo;
     public int spareReloads;
     public float reloadDuration = 2f;
     public float noiseRadius = 15f;
