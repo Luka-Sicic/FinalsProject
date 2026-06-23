@@ -87,25 +87,34 @@ public float kickRange = 0.8f;
     {
         if (animator == null) return;
 
-        animator.SetBool("HasShotgun", false);
-        animator.SetBool("HasPistol", false);
-        animator.SetBool("HasBat", false);
+        bool isShotgun = weaponName.Contains("Shotgun");
+        bool isPistol = weaponName.Contains("Pistol");
+        bool isBat = weaponName.Contains("Bat");
 
-        if (weaponName.Contains("Shotgun")) animator.SetBool("HasShotgun", true);
-        else if (weaponName.Contains("Pistol")) animator.SetBool("HasPistol", true);
-        else if (weaponName.Contains("Bat")) animator.SetBool("HasBat", true);
+        animator.SetBool("HasShotgun", isShotgun);
+        animator.SetBool("HasPistol", isPistol);
+        animator.SetBool("HasBat", isBat);
+
+        if (isShotgun) animator.SetTrigger("playershotgun");
+        else if (isPistol) animator.SetTrigger("playerpistol");
+        else if (isBat) animator.SetTrigger("playerbat");
     }
 
     void Update()
     {
-        
         if (moveAction != null)
         {
             moveDirection = moveAction.action.ReadValue<Vector2>().normalized;
         }
 
         if (attackAction != null && attackAction.action.WasPressedThisFrame() && weapon != null && !weapon.IsReloading)
+        {
             weapon.Fire();
+            // Trigger weapon pose when firing to ensure we stay in it
+            if (weapon.name.Contains("Shotgun")) animator.SetTrigger("playershotgun");
+            else if (weapon.name.Contains("Pistol")) animator.SetTrigger("playerpistol");
+            else if (weapon.name.Contains("Bat")) animator.SetTrigger("playerbat");
+        }
 
         if (reloadAction != null && reloadAction.action.WasPressedThisFrame() && weapon != null)
             weapon.Reload();
@@ -115,10 +124,8 @@ public float kickRange = 0.8f;
             Kick();
         }
 
-        
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        
         if (animator != null)
         {
             animator.SetBool(IsWalkingHash, moveDirection.magnitude > 0);
@@ -187,6 +194,8 @@ if (animator != null)
         weapon.transform.SetParent(transform);
         weapon.transform.localPosition = Vector3.zero;
         weapon.transform.localRotation = Quaternion.identity;
+        
+        UpdateAnimatorBools(newWeapon.name);
     }
 
     void FixedUpdate()

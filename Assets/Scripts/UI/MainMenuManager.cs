@@ -7,23 +7,78 @@ namespace Project.Scripts.UI
     {
         [SerializeField] private GameObject mainPanel;
         [SerializeField] private GameObject settingsPanel;
+        [SerializeField] private GameObject loadGamePanel;
+        [SerializeField] private GameObject confirmationPanel;
+
+        private int pendingSlotId = -1;
 
         public void NewGame()
         {
-            GameSaveManager.ClearSave();
+            int slotId = GameSaveManager.NewGameAllocatedSlot();
+            
+            // Check if this slot already has data (overwrite)
+            var slots = GameSaveManager.GetSlots();
+            bool isOverwrite = slots.Exists(s => s.slotId == slotId);
+
+            if (isOverwrite && confirmationPanel != null)
+            {
+                pendingSlotId = slotId;
+                mainPanel.SetActive(false);
+                confirmationPanel.SetActive(true);
+            }
+            else
+            {
+                StartNewGame(slotId);
+            }
+        }
+
+        public void ConfirmNewGame()
+        {
+            if (pendingSlotId != -1)
+            {
+                StartNewGame(pendingSlotId);
+            }
+        }
+
+        public void CloseConfirmation()
+        {
+            pendingSlotId = -1;
+            if (confirmationPanel != null) confirmationPanel.SetActive(false);
+            if (mainPanel != null) mainPanel.SetActive(true);
+        }
+
+        private void StartNewGame(int slotId)
+        {
+            GameSaveManager.PrepareNewGame(slotId);
             SceneManager.LoadScene("Level1");
         }
 
         public void LoadGame()
-        {
-            if (GameSaveManager.HasSave())
+{
+            if (loadGamePanel != null)
             {
-                GameSaveManager.LoadGame();
+                mainPanel.SetActive(false);
+                loadGamePanel.SetActive(true);
             }
             else
             {
-                Debug.Log("No save game found");
+                // Fallback to old behavior if panel is not assigned
+                if (GameSaveManager.HasSave())
+                {
+                    GameSaveManager.LoadGame();
+                }
+                else
+                {
+                    Debug.Log("No save game found");
+                }
             }
+        }
+
+        public void OpenMainPanel()
+        {
+            if (mainPanel != null) mainPanel.SetActive(true);
+            if (settingsPanel != null) settingsPanel.SetActive(false);
+            if (loadGamePanel != null) loadGamePanel.SetActive(false);
         }
 
         public void OpenSettings()
@@ -34,8 +89,7 @@ namespace Project.Scripts.UI
 
         public void CloseSettings()
         {
-            if (mainPanel != null) mainPanel.SetActive(true);
-            if (settingsPanel != null) settingsPanel.SetActive(false);
+            OpenMainPanel();
         }
 
         public void QuitGame()
