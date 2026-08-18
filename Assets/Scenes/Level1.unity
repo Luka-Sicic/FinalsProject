@@ -277,7 +277,7 @@ MonoBehaviour:
   manualDebugFloorRoof: 0
   showSearchTree: 0
   unwalkableNodeDebugSize: 0.3
-  logPathResults: 1
+  logPathResults: 0
   maxNearestNodeDistance: 100
   scanOnStartup: 1
   fullGetNearestSearch: 0
@@ -327,7 +327,7 @@ MonoBehaviour:
   - 31
   heuristic: 2
   heuristicScale: 1
-  threadCount: 1
+  threadCount: -2
   maxFrameTime: 10
   batchGraphUpdates: 0
   graphUpdateBatchingInterval: 0.2
@@ -151641,7 +151641,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 466287460159211267, guid: f7011a973ce3e19478196f36828f90f0, type: 3}
+      propertyPath: m_Pivot.x
+      value: 10.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 466287460159211267, guid: f7011a973ce3e19478196f36828f90f0, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 466287460159211267, guid: f7011a973ce3e19478196f36828f90f0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 466287460159211267, guid: f7011a973ce3e19478196f36828f90f0, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 466287460159211267, guid: f7011a973ce3e19478196f36828f90f0, type: 3}
+      propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 466287460159211267, guid: f7011a973ce3e19478196f36828f90f0, type: 3}
@@ -151655,6 +151671,18 @@ PrefabInstance:
     - target: {fileID: 466287460159211267, guid: f7011a973ce3e19478196f36828f90f0, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 466287460159211267, guid: f7011a973ce3e19478196f36828f90f0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 466287460159211267, guid: f7011a973ce3e19478196f36828f90f0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 466287460159211267, guid: f7011a973ce3e19478196f36828f90f0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.76
       objectReference: {fileID: 0}
     - target: {fileID: 466287460159211267, guid: f7011a973ce3e19478196f36828f90f0, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -151715,6 +151743,10 @@ PrefabInstance:
     - target: {fileID: 1543637521943510480, guid: f7011a973ce3e19478196f36828f90f0, type: 3}
       propertyPath: m_Name
       value: HUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 1543637521943510480, guid: f7011a973ce3e19478196f36828f90f0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2471817277099463947, guid: f7011a973ce3e19478196f36828f90f0, type: 3}
       propertyPath: m_text
@@ -152406,6 +152438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 7765260720929389352, guid: 5c1ac88ff1b1b5747a4580a3e688f267, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7879664163761274212, guid: 5c1ac88ff1b1b5747a4580a3e688f267, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 2
@@ -152662,6 +152698,7 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 7643080678542303017}
   - {fileID: 1961364130}
+  - {fileID: 2075787425}
   - {fileID: 878398571}
   - {fileID: 2045459408}
   - {fileID: 82830398}
@@ -152753,7 +152790,6 @@ SceneRoots:
   - {fileID: 571264856}
   - {fileID: 846043383}
   - {fileID: 1498944322}
-  - {fileID: 2075787425}
   - {fileID: 851416620}
   - {fileID: 1565130722}
   - {fileID: 1548123420}

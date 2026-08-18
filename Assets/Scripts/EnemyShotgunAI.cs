@@ -33,6 +33,9 @@ namespace Project.Scripts
         public Transform[] patrolPoints;
         public float patrolWaitTime = 1f;
 
+        [Header("Optimization")]
+        [SerializeField] private float losCheckInterval = 0.1f;
+
         private Transform _player;
         private AIDestinationSetter _setter;
         private AIPath _aiPath;
@@ -47,6 +50,8 @@ namespace Project.Scripts
         private bool _isSearching;
         private bool _isWaitingAtLastSeen;
         private float _searchTimer;
+        private float _losTimer;
+        private bool _canSeePlayer;
 
         public void OnHearNoise(Vector2 sourcePosition)
         {
@@ -100,12 +105,19 @@ namespace Project.Scripts
 
         void Update()
         {
-
             if (_moveResumeTimer > 0) _moveResumeTimer -= Time.deltaTime;
             if (_fireTimer > 0) _fireTimer -= Time.deltaTime;
 
+            _losTimer += Time.deltaTime;
             float dist = _player != null ? Vector2.Distance(transform.position, _player.position) : float.MaxValue;
-            bool canSee = _player != null && HasLineOfSight() && dist <= chaseRange;
+
+            if (_losTimer >= losCheckInterval)
+            {
+                _canSeePlayer = _player != null && HasLineOfSight();
+                _losTimer = 0f;
+            }
+
+            bool canSee = _canSeePlayer && dist <= chaseRange;
 
             if (canSee)
             {

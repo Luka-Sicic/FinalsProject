@@ -8,7 +8,8 @@ namespace Project.Scripts
         [Header("Settings")]
         [SerializeField] private float fov = 90f;
         [SerializeField] private float viewDistance = 5f;
-        [SerializeField] private int rayCount = 50;
+        [SerializeField] private int rayCount = 30;
+        [SerializeField] private float updateInterval = 0.05f;
         [SerializeField] private LayerMask obstacleLayer;
 
         private Mesh _mesh;
@@ -19,6 +20,7 @@ namespace Project.Scripts
         private Vector2[] _uv;
         private Color[] _colors;
         private Color _currentColor = Color.white;
+        private float _updateTimer;
 
         private void Awake()
         {
@@ -42,7 +44,12 @@ namespace Project.Scripts
 
         private void LateUpdate()
         {
-            UpdateMesh();
+            _updateTimer += Time.deltaTime;
+            if (_updateTimer >= updateInterval)
+            {
+                UpdateMesh();
+                _updateTimer = 0f;
+            }
         }
 
         public void SetColor(Color color)

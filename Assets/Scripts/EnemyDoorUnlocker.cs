@@ -13,7 +13,7 @@ namespace Project.Scripts
             _aiPath = GetComponent<AIPath>();
         }
 
-        private void OnCollisionStay2D(Collision2D collision)
+        private void OnCollisionEnter2D(Collision2D collision)
         {
 
             if (_aiPath != null && !_aiPath.canMove) return;
