@@ -9,6 +9,8 @@ public int maxAmmo;
     public int spareReloads;
     public float reloadDuration = 2f;
     public float noiseRadius = 15f;
+    public bool isAutomatic = false;
+    public float fireRate = 0.5f;
     public bool IsReloading { get; protected set; }
 
     [Header("Audio")]

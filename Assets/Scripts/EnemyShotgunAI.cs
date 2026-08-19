@@ -12,7 +12,7 @@ namespace Project.Scripts
         public float shootRange = 7f;
         public float fovAngle = 180f;
         public LayerMask obstacleLayer;
-        public float rotationOffset = -90f;
+        public float rotationOffset = 0f;
 
         [Header("Shooting")]
         public GameObject bulletPrefab;
@@ -76,7 +76,13 @@ namespace Project.Scripts
 
         void Start()
         {
-            _player = GameObject.FindGameObjectWithTag("Player")?.transform;
+            if (AstarPath.active == null || AstarPath.active.data.graphs.Length == 0)
+            {
+                Debug.LogWarning($"[AI] AstarPath graph missing. Disabling {gameObject.name} to prevent CPU spikes.");
+                this.enabled = false;
+                return;
+            }
+_player = GameObject.FindGameObjectWithTag("Player")?.transform;
             _setter = GetComponent<AIDestinationSetter>();
             _aiPath = GetComponent<AIPath>();
             _animator = GetComponent<Animator>();
@@ -226,16 +232,12 @@ namespace Project.Scripts
             Vector2 forward = new Vector2(Mathf.Cos(currentFacingAngle), Mathf.Sin(currentFacingAngle));
             if (Vector2.Angle(forward, dirToPlayer) > fovAngle * 0.5f) return false;
 
-            RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position, dirToPlayer, dist);
-            System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
+            int mask = obstacleLayer | (1 << _player.gameObject.layer);
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, dirToPlayer, dist, mask);
 
-            foreach (var hit in hits)
+            if (hit.collider != null)
             {
-                if (hit.collider.gameObject == gameObject) continue;
                 if (hit.collider.CompareTag("Player")) return true;
-
-                if (((1 << hit.collider.gameObject.layer) & obstacleLayer) != 0) return false;
-
                 if (hit.collider.TryGetComponent<Door>(out var door) && door.isLocked) return false;
             }
 

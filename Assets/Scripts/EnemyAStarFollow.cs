@@ -14,7 +14,7 @@ namespace Project.Scripts
 
         [Header("Visuals")]
         [Tooltip("Offset added to rotation. If the sprite points its 'side' at the player, adjust this (usually 90 or -90).")]
-        public float rotationOffset = -90f;
+        public float rotationOffset = 0f;
 
         [Header("Patrol")]
         public Transform[] patrolPoints;
@@ -51,7 +51,13 @@ namespace Project.Scripts
 
         void Start()
         {
-            _player = GameObject.FindGameObjectWithTag("Player")?.transform;
+            if (AstarPath.active == null || AstarPath.active.data.graphs.Length == 0)
+            {
+                Debug.LogWarning($"[AI] AstarPath graph missing. Disabling {gameObject.name} to prevent CPU spikes.");
+                this.enabled = false;
+                return;
+            }
+_player = GameObject.FindGameObjectWithTag("Player")?.transform;
             _setter = GetComponent<AIDestinationSetter>();
             _aiPath = GetComponent<AIPath>();
             _sprite = GetComponent<SpriteRenderer>();
@@ -205,18 +211,12 @@ namespace Project.Scripts
 
         private bool HasLineOfSight(Vector2 dirToPlayer, float dist)
         {
+            int mask = obstacleLayer | (1 << _player.gameObject.layer);
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, dirToPlayer, dist, mask);
 
-            RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position, dirToPlayer, dist);
-
-            System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
-
-            foreach (var hit in hits)
+            if (hit.collider != null)
             {
-                if (hit.collider.gameObject == gameObject) continue;
                 if (hit.collider.CompareTag("Player")) return true;
-
-                if (((1 << hit.collider.gameObject.layer) & obstacleLayer) != 0) return false;
-
                 if (hit.collider.TryGetComponent<Door>(out var door) && door.isLocked) return false;
             }
 

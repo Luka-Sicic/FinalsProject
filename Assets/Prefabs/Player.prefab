@@ -179,6 +179,7 @@ MonoBehaviour:
   - {fileID: 2508144980908201369, guid: af9ce0f7e0a4099479b7d054b4da6212, type: 3}
   - {fileID: 2066060669879441946, guid: fa9e9e15ca730da438937d3c1446e4c3, type: 3}
   - {fileID: 146325147360164459, guid: f3a3c82d62350f74281a686b2185645c, type: 3}
+  - {fileID: 2415724381606068906, guid: 1f20bb90f42230b4faaf7ff188ca444a, type: 3}
   moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   attackAction: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   kickAction: {fileID: 6995196066142002883, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

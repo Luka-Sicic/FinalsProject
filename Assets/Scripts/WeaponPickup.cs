@@ -116,6 +116,7 @@ Weapon weaponScript = weaponInstance.GetComponent<Weapon>();
             player.animator.SetBool("HasShotgun", false);
             player.animator.SetBool("HasPistol", false);
             player.animator.SetBool("HasBat", false);
+            player.animator.SetBool("HasUzi", false);
 
             if (!string.IsNullOrEmpty(animTrigger))
                 player.animator.SetTrigger(animTrigger);

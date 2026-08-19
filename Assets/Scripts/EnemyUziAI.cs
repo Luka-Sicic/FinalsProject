@@ -1,11 +1,12 @@
 using UnityEngine;
 using Pathfinding;
+using System.Collections;
 
 namespace Project.Scripts
 {
     [RequireComponent(typeof(AIPath))]
     [RequireComponent(typeof(AIDestinationSetter))]
-    public class EnemyPistolAI : MonoBehaviour, INoiseListener
+    public class EnemyUziAI : MonoBehaviour, INoiseListener
     {
         [Header("Detection & Movement")]
         public float chaseRange = 12f;
@@ -17,8 +18,10 @@ namespace Project.Scripts
         [Header("Shooting")]
         public GameObject bulletPrefab;
         public Transform firePoint;
-        public float fireRate = 1.0f;
+        public float fireRate = 1.5f;
         public float bulletSpeed = 20f;
+        public int burstCount = 3;
+        public float burstDelay = 0.1f;
 
         [Header("Visuals")]
         public Sprite staticSprite;
@@ -104,7 +107,6 @@ _player = GameObject.FindGameObjectWithTag("Player")?.transform;
 
         void Update()
         {
-
             if (_moveResumeTimer > 0) _moveResumeTimer -= Time.deltaTime;
             if (_fireTimer > 0) _fireTimer -= Time.deltaTime;
 
@@ -121,7 +123,6 @@ _player = GameObject.FindGameObjectWithTag("Player")?.transform;
 
                 if (dist <= shootRange)
                 {
-
                     if (_aiPath != null) _aiPath.canMove = false;
 
                     if (_fireTimer <= 0)
@@ -132,7 +133,6 @@ _player = GameObject.FindGameObjectWithTag("Player")?.transform;
                 }
                 else
                 {
-
                     if (_moveResumeTimer <= 0 && _aiPath != null)
                     {
                         _aiPath.canMove = true;
@@ -143,7 +143,6 @@ _player = GameObject.FindGameObjectWithTag("Player")?.transform;
             {
                 if (_setter != null && _setter.target != null)
                 {
-
                     _setter.target = null;
                     _aiPath.destination = _lastSeenPosition;
                     _isSearching = true;
@@ -224,6 +223,10 @@ _player = GameObject.FindGameObjectWithTag("Player")?.transform;
             if (hit.collider != null)
             {
                 if (hit.collider.CompareTag("Player")) return true;
+                
+                // If we hit a door, check if it's locked. 
+                // Note: If it's an unlocked door, a single raycast won't see through it to the player.
+                // But this is the requested optimization for performance.
                 if (hit.collider.TryGetComponent<Door>(out var door) && door.isLocked) return false;
             }
 
@@ -232,26 +235,36 @@ _player = GameObject.FindGameObjectWithTag("Player")?.transform;
 
         void Shoot()
         {
-            if (bulletPrefab == null) return;
+            StartCoroutine(ShootBurst());
+        }
 
-            if (audioSource != null && fireSounds != null && fireSounds.Length > 0)
+        IEnumerator ShootBurst()
+        {
+            for (int i = 0; i < burstCount; i++)
             {
-                audioSource.PlayOneShot(fireSounds[Random.Range(0, fireSounds.Length)]);
-            }
+                if (bulletPrefab == null) yield break;
 
-            if (_aiPath != null)
-            {
-                _aiPath.canMove = false;
-                _moveResumeTimer = 0.3f;
-            }
+                if (audioSource != null && fireSounds != null && fireSounds.Length > 0)
+                {
+                    audioSource.PlayOneShot(fireSounds[Random.Range(0, fireSounds.Length)]);
+                }
 
-            Quaternion rotation = transform.rotation * Quaternion.Euler(0, 0, -rotationOffset);
+                if (_aiPath != null)
+                {
+                    _aiPath.canMove = false;
+                    _moveResumeTimer = 0.3f;
+                }
 
-            GameObject bullet = Instantiate(bulletPrefab, firePoint.position, rotation);
-            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            if (rb != null)
-            {
-                rb.linearVelocity = (Vector2)(rotation * Vector3.right) * bulletSpeed;
+                Quaternion rotation = transform.rotation * Quaternion.Euler(0, 0, -rotationOffset);
+
+                GameObject bullet = Instantiate(bulletPrefab, firePoint.position, rotation);
+                Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+                if (rb != null)
+                {
+                    rb.linearVelocity = (Vector2)(rotation * Vector3.right) * bulletSpeed;
+                }
+
+                yield return new WaitForSeconds(burstDelay);
             }
         }
 

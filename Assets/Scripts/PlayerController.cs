@@ -27,6 +27,7 @@ public float kickRange = 0.8f;
 
     Vector2 moveDirection;
     Vector2 mousePosition;
+    private float nextFireTime;
 
     private static readonly int IsWalkingHash = Animator.StringToHash("IsWalking");
     private static readonly int PlayerKickHash = Animator.StringToHash("playerkick");
@@ -49,8 +50,11 @@ public float kickRange = 0.8f;
         if (interactAction != null) interactAction.action.Disable();
     }
 
+    private Camera mainCamera;
+
     void Start()
     {
+        mainCamera = Camera.main;
         if (rb == null) rb = GetComponent<Rigidbody2D>();
         if (animator == null) animator = GetComponent<Animator>();
 
@@ -88,14 +92,17 @@ public float kickRange = 0.8f;
         bool isShotgun = weaponName.Contains("Shotgun");
         bool isPistol = weaponName.Contains("Pistol");
         bool isBat = weaponName.Contains("Bat");
+        bool isUzi = weaponName.Contains("Uzi");
 
         animator.SetBool("HasShotgun", isShotgun);
         animator.SetBool("HasPistol", isPistol);
         animator.SetBool("HasBat", isBat);
+        animator.SetBool("HasUzi", isUzi);
 
         if (isShotgun) animator.SetTrigger("playershotgun");
         else if (isPistol) animator.SetTrigger("playerpistol");
         else if (isBat) animator.SetTrigger("playerbat");
+        else if (isUzi) animator.SetTrigger("playeruzi");
     }
 
     void Update()
@@ -105,13 +112,34 @@ public float kickRange = 0.8f;
             moveDirection = moveAction.action.ReadValue<Vector2>().normalized;
         }
 
-        if (attackAction != null && attackAction.action.WasPressedThisFrame() && weapon != null && !weapon.IsReloading)
+        if (attackAction != null && weapon != null && !weapon.IsReloading)
         {
-            weapon.Fire();
+            bool shouldFire = false;
+            if (weapon.isAutomatic)
+            {
+                if (attackAction.action.IsPressed() && Time.time >= nextFireTime)
+                {
+                    shouldFire = true;
+                    nextFireTime = Time.time + weapon.fireRate;
+                }
+            }
+            else
+            {
+                if (attackAction.action.WasPressedThisFrame())
+                {
+                    shouldFire = true;
+                }
+            }
 
-            if (weapon.name.Contains("Shotgun")) animator.SetTrigger("playershotgun");
-            else if (weapon.name.Contains("Pistol")) animator.SetTrigger("playerpistol");
-            else if (weapon.name.Contains("Bat")) animator.SetTrigger("playerbat");
+            if (shouldFire)
+            {
+                weapon.Fire();
+
+                if (weapon.name.Contains("Shotgun")) animator.SetTrigger("playershotgun");
+                else if (weapon.name.Contains("Pistol")) animator.SetTrigger("playerpistol");
+                else if (weapon.name.Contains("Bat")) animator.SetTrigger("playerbat");
+                else if (weapon.name.Contains("Uzi")) animator.SetTrigger("playeruzi");
+            }
         }
 
         if (reloadAction != null && reloadAction.action.WasPressedThisFrame() && weapon != null)
@@ -122,7 +150,7 @@ public float kickRange = 0.8f;
             Kick();
         }
 
-        mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
 
         if (animator != null)
         {
