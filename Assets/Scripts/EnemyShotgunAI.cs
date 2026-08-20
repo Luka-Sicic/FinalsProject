@@ -11,6 +11,7 @@ namespace Project.Scripts
         public float chaseRange = 10f;
         public float shootRange = 7f;
         public float fovAngle = 180f;
+        public float detectionTime = 0.5f;
         public LayerMask obstacleLayer;
         public float rotationOffset = 0f;
 
@@ -52,6 +53,9 @@ namespace Project.Scripts
         private float _searchTimer;
         private float _losTimer;
         private bool _canSeePlayer;
+        private float _detectionTimer;
+        private bool _isPlayerDetected;
+        private PlayerController _playerController;
 
         public void OnHearNoise(Vector2 sourcePosition)
         {
@@ -83,6 +87,7 @@ namespace Project.Scripts
                 return;
             }
 _player = GameObject.FindGameObjectWithTag("Player")?.transform;
+            if (_player != null) _playerController = _player.GetComponent<PlayerController>();
             _setter = GetComponent<AIDestinationSetter>();
             _aiPath = GetComponent<AIPath>();
             _animator = GetComponent<Animator>();
@@ -125,7 +130,25 @@ _player = GameObject.FindGameObjectWithTag("Player")?.transform;
 
             bool canSee = _canSeePlayer && dist <= chaseRange;
 
+            float effectiveDetectionTime = (_playerController != null && _playerController.IsStealth) ? detectionTime * 3f : detectionTime;
             if (canSee)
+            {
+                if (!_isPlayerDetected)
+                {
+                    _detectionTimer += Time.deltaTime;
+                    if (_detectionTimer >= effectiveDetectionTime)
+                    {
+                        _isPlayerDetected = true;
+                    }
+                }
+            }
+            else
+            {
+                _detectionTimer = 0f;
+                _isPlayerDetected = false;
+            }
+
+            if (_isPlayerDetected)
             {
                 _lastSeenPosition = _player.position;
                 _isSearching = false;

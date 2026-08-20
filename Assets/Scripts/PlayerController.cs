@@ -9,6 +9,9 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
 
+    [Header("Settings")]
+    public bool loadWeaponOnStart = true;
+
     [Header("Weapon Settings")]
     [SerializeField] private GameObject[] allWeaponPrefabs;
 
@@ -19,11 +22,24 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private InputActionReference reloadAction;
     [SerializeField] private InputActionReference interactAction;
 
+    [Header("Stealth Settings")]
+    public Sprite stealthSprite;
+    public float stealthAttackDamage = 1f;
+    public float stealthAttackRange = 1.5f;
+    public LayerMask stealthAttackLayers;
+    public AudioClip stealthSwingSound;
+    public AudioClip stealthHitSound;
+    private bool isStealth = false;
+
+    public bool IsStealth => isStealth;
+
     [Header("Kick Settings")]
-public float kickRange = 0.8f;
+    public float kickRange = 0.8f;
     public int kickDamage = 0;
     public float kickForce = 5f;
     public LayerMask kickLayers;
+    public float kickCooldown = 1f;
+    private float nextKickTime;
 
     Vector2 moveDirection;
     Vector2 mousePosition;
@@ -60,7 +76,10 @@ public float kickRange = 0.8f;
 
         rb.interpolation = RigidbodyInterpolation2D.Interpolate;
 
-        LoadSavedWeapon();
+        if (loadWeaponOnStart)
+        {
+            LoadSavedWeapon();
+        }
     }
 
     private void LoadSavedWeapon()
@@ -112,7 +131,14 @@ public float kickRange = 0.8f;
             moveDirection = moveAction.action.ReadValue<Vector2>().normalized;
         }
 
-        if (attackAction != null && weapon != null && !weapon.IsReloading)
+        if (isStealth)
+        {
+            if (attackAction != null && attackAction.action.WasPressedThisFrame())
+            {
+                StealthAttack();
+            }
+        }
+        else if (attackAction != null && weapon != null && !weapon.IsReloading)
         {
             bool shouldFire = false;
             if (weapon.isAutomatic)
@@ -142,12 +168,18 @@ public float kickRange = 0.8f;
             }
         }
 
-        if (reloadAction != null && reloadAction.action.WasPressedThisFrame() && weapon != null)
+        if (!isStealth && reloadAction != null && reloadAction.action.WasPressedThisFrame() && weapon != null)
             weapon.Reload();
 
-        if (kickAction != null && kickAction.action.WasPressedThisFrame())
+        if (!isStealth && kickAction != null && kickAction.action.WasPressedThisFrame() && Time.time >= nextKickTime)
         {
             Kick();
+            nextKickTime = Time.time + kickCooldown;
+        }
+
+        if (Keyboard.current != null && Keyboard.current.cKey.wasPressedThisFrame)
+        {
+            ToggleStealth();
         }
 
         mousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
@@ -216,13 +248,82 @@ if (animator != null)
         weapon.transform.localPosition = Vector3.zero;
         weapon.transform.localRotation = Quaternion.identity;
 
+        // Hide weapon sprite if the player animation already handles it
+        SpriteRenderer weaponSR = weapon.GetComponent<SpriteRenderer>();
+        if (weaponSR != null) weaponSR.enabled = false;
+
         UpdateAnimatorBools(newWeapon.name);
+    }
+
+    public void StealthAttack()
+    {
+        if (animator != null)
+        {
+            animator.SetTrigger("playerstab");
+        }
+
+        AudioSource audioSource = GetComponent<AudioSource>();
+        if (audioSource != null && stealthSwingSound != null)
+        {
+            audioSource.PlayOneShot(stealthSwingSound);
+        }
+
+        Vector2 attackOrigin = (Vector2)transform.position + (Vector2)transform.right * 0.5f;
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackOrigin, stealthAttackRange, stealthAttackLayers);
+
+        bool hitSomething = false;
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            Health health = enemy.GetComponent<Health>();
+            if (health != null)
+            {
+                health.TakeDamage((int)stealthAttackDamage);
+                hitSomething = true;
+            }
+        }
+
+        if (hitSomething && audioSource != null && stealthHitSound != null)
+        {
+            audioSource.PlayOneShot(stealthHitSound);
+        }
+    }
+
+    private void ToggleStealth()
+    {
+        isStealth = !isStealth;
+        
+        if (animator != null)
+        {
+            animator.SetBool("IsStealth", isStealth);
+            
+            if (isStealth)
+            {
+                animator.SetBool("HasShotgun", false);
+                animator.SetBool("HasPistol", false);
+                animator.SetBool("HasBat", false);
+                animator.SetBool("HasUzi", false);
+            }
+        }
+
+        if (isStealth)
+        {
+            if (weapon != null) weapon.gameObject.SetActive(false);
+        }
+        else
+        {
+            if (weapon != null)
+            {
+                weapon.gameObject.SetActive(true);
+                UpdateAnimatorBools(weapon.name);
+            }
+        }
     }
 
     void FixedUpdate()
     {
 
-        rb.linearVelocity = moveDirection * moveSpeed;
+        float currentSpeed = isStealth ? moveSpeed * 0.6f : moveSpeed;
+        rb.linearVelocity = moveDirection * currentSpeed;
 
         Vector2 lookDirection = mousePosition - rb.position;
         float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;

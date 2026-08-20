@@ -38,6 +38,7 @@ namespace Project.Scripts
         private Transform _playerTransform;
         private VisionConeVisual _visionCone;
         private bool _isAlerted;
+        private PlayerController _playerController;
 
         private void Start()
         {
@@ -48,6 +49,7 @@ namespace Project.Scripts
             if (player != null)
             {
                 _playerTransform = player.transform;
+                _playerController = player.GetComponent<PlayerController>();
             }
 
             if (_visionCone != null)
@@ -79,7 +81,9 @@ namespace Project.Scripts
             if (IsPlayerInView())
             {
                 _detectionTimer += Time.deltaTime;
-                if (_detectionTimer >= detectionTime && !_isAlerted)
+                float effectiveDetectionTime = (_playerController != null && _playerController.IsStealth) ? detectionTime * 3f : detectionTime;
+                
+                if (_detectionTimer >= effectiveDetectionTime && !_isAlerted)
                 {
                     TriggerAlert();
                 }
@@ -137,8 +141,8 @@ namespace Project.Scripts
             }
             else if (_detectionTimer > 0)
             {
-
-                float t = _detectionTimer / detectionTime;
+                float effectiveDetectionTime = (_playerController != null && _playerController.IsStealth) ? detectionTime * 3f : detectionTime;
+                float t = _detectionTimer / effectiveDetectionTime;
                 _visionCone.SetColor(Color.Lerp(detectingColor, alertColor, t));
             }
             else
@@ -159,6 +163,15 @@ namespace Project.Scripts
 
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(transform.position, alertRadius);
+        }
+
+        public void TurnOff()
+        {
+            this.enabled = false;
+            if (_visionCone != null)
+            {
+                _visionCone.gameObject.SetActive(false);
+            }
         }
     }
 }

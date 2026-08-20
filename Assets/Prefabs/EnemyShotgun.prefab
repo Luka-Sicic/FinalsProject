@@ -329,7 +329,7 @@ MonoBehaviour:
   fovAngle: 120
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 2176
   rotationOffset: 0
   bulletPrefab: {fileID: 1317194511853855486, guid: 12e8061f9fe30464da0167ee03cbe22e, type: 3}
   firePoint: {fileID: 3535003502279088723}

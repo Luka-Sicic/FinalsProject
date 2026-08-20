@@ -340,7 +340,7 @@ MonoBehaviour:
   fovAngle: 120
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 2176
   rotationOffset: 0
   attackRate: 1.5
   damage: 1

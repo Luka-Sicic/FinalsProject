@@ -59,7 +59,7 @@ Transform:
   m_GameObject: {fileID: 2508144980908201369}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -84,6 +84,8 @@ MonoBehaviour:
   spareReloads: 0
   reloadDuration: 2
   noiseRadius: 15
+  isAutomatic: 0
+  fireRate: 0.5
   audioSource: {fileID: 8476665060218387145}
   fireSounds: []
   reloadSounds: []
@@ -238,8 +240,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2087395359
+  m_SortingLayer: 6
   m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 8319713382622770751, guid: 9f64d7c006130a34998d392de5501063, type: 3}

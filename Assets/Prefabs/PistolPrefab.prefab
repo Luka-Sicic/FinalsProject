@@ -53,6 +53,8 @@ MonoBehaviour:
   spareReloads: 0
   reloadDuration: 2
   noiseRadius: 15
+  isAutomatic: 0
+  fireRate: 0.5
   audioSource: {fileID: 873838773134782161}
   fireSounds:
   - {fileID: 8300000, guid: 10d08f2e2f31d244a8b6558efc4716db, type: 3}
@@ -213,8 +215,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2087395359
+  m_SortingLayer: 6
   m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: -8769479871458534263, guid: 4e2b5edcda550164fb36279c081939a6, type: 3}

@@ -86,8 +86,8 @@ private bool _isDead;
             SpriteRenderer originalSR = GetComponent<SpriteRenderer>();
             if (originalSR != null)
             {
-                sr.sortingLayerID = originalSR.sortingLayerID;
-                sr.sortingOrder = originalSR.sortingOrder;
+                sr.sortingLayerName = "Ground";
+                sr.sortingOrder = 2; // Above blood (1) but below everything else
                 sr.color = originalSR.color;
             }
 

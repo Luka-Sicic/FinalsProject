@@ -175,6 +175,7 @@ MonoBehaviour:
   weapon: {fileID: 0}
   rb: {fileID: 5860062040736380976}
   animator: {fileID: 0}
+  loadWeaponOnStart: 0
   allWeaponPrefabs:
   - {fileID: 2508144980908201369, guid: af9ce0f7e0a4099479b7d054b4da6212, type: 3}
   - {fileID: 2066060669879441946, guid: fa9e9e15ca730da438937d3c1446e4c3, type: 3}
@@ -185,12 +186,21 @@ MonoBehaviour:
   kickAction: {fileID: 6995196066142002883, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   reloadAction: {fileID: 1764256351850261319, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   interactAction: {fileID: 1781555164194001046, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  stealthSprite: {fileID: -3879450211175065433, guid: 5ef0244a5f5f21e4e9d80e8ab189b314, type: 3}
+  stealthAttackDamage: 10
+  stealthAttackRange: 0.4
+  stealthAttackLayers:
+    serializedVersion: 2
+    m_Bits: 1024
+  stealthSwingSound: {fileID: 8300000, guid: c11c3771be9f58d4eb2a21c3f5c50d7a, type: 3}
+  stealthHitSound: {fileID: 8300000, guid: 3ea0c3149257c644b977f0d6abac3587, type: 3}
   kickRange: 0.8
   kickDamage: 0
   kickForce: 15
   kickLayers:
     serializedVersion: 2
     m_Bits: 1025
+  kickCooldown: 1
 --- !u!95 &5092540137192561624
 Animator:
   serializedVersion: 7

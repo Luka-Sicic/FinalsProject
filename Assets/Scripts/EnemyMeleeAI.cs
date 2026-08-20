@@ -11,6 +11,7 @@ namespace Project.Scripts
         public float chaseRange = 10f;
         public float attackRange = 1.5f;
         public float fovAngle = 360f;
+        public float detectionTime = 0.5f;
         public LayerMask obstacleLayer;
         public float rotationOffset = 0f;
 
@@ -47,6 +48,9 @@ namespace Project.Scripts
         private bool _isSearching;
         private bool _isWaitingAtLastSeen;
         private float _searchTimer;
+        private float _detectionTimer;
+        private bool _isPlayerDetected;
+        private PlayerController _playerController;
 
         public void OnHearNoise(Vector2 sourcePosition)
         {
@@ -77,7 +81,8 @@ namespace Project.Scripts
                 this.enabled = false;
                 return;
             }
-_player = GameObject.FindGameObjectWithTag("Player")?.transform;
+            _player = GameObject.FindGameObjectWithTag("Player")?.transform;
+            if (_player != null) _playerController = _player.GetComponent<PlayerController>();
             _setter = GetComponent<AIDestinationSetter>();
             _aiPath = GetComponent<AIPath>();
             _animator = GetComponent<Animator>();
@@ -108,7 +113,25 @@ _player = GameObject.FindGameObjectWithTag("Player")?.transform;
             float dist = _player != null ? Vector2.Distance(transform.position, _player.position) : float.MaxValue;
             bool canSee = _player != null && HasLineOfSight() && dist <= chaseRange;
 
+            float effectiveDetectionTime = (_playerController != null && _playerController.IsStealth) ? detectionTime * 3f : detectionTime;
             if (canSee)
+            {
+                if (!_isPlayerDetected)
+                {
+                    _detectionTimer += Time.deltaTime;
+                    if (_detectionTimer >= effectiveDetectionTime)
+                    {
+                        _isPlayerDetected = true;
+                    }
+                }
+            }
+            else
+            {
+                _detectionTimer = 0f;
+                _isPlayerDetected = false;
+            }
+
+            if (_isPlayerDetected)
             {
                 _lastSeenPosition = _player.position;
                 _isSearching = false;
